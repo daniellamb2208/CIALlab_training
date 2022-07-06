@@ -1,0 +1,1660 @@
+level:0, node:1
+level:1, node:2
+level:2, node:4
+level:3, node:7
+level:4, node:14
+level:5, node:28
+level:6, node:56
+level:7, node:112
+level:8, node:215
+level:9, node:422
+level:10, node:824
+level:11, node:1579
+level:12, node:2983
+level:13, node:5615
+level:14, node:10432
+level:15, node:19057
+level:16, node:27721
+level:17, node:45532
+level:18, node:73340
+level:19, node:112763
+level:20, node:163202
+level:21, node:232789
+level:22, node:292785
+level:23, node:391508
+level:24, node:8927
+level:25, node:9224
+level:26, node:9414
+level:27, node:10053
+level:28, node:10985
+level:29, node:10193
+level:30, node:9854
+level:31, node:13201
+//
+now count cost[2][2], k:1, cost[1][1]:4, level_node[1]:2 pow:4, tempcost:12, cutpoint:0
+//
+now count cost[3][2], k:1, cost[1][1]:4, level_node[1]:2 pow:8, tempcost:20, cutpoint:0
+now count cost[3][2], k:2, cost[2][1]:8, level_node[2]:4 pow:4, tempcost:24, cutpoint:1
+//
+now count cost[4][2], k:1, cost[1][1]:4, level_node[1]:2 pow:16, tempcost:36, cutpoint:0
+now count cost[4][2], k:2, cost[2][1]:8, level_node[2]:4 pow:8, tempcost:40, cutpoint:1
+now count cost[4][2], k:3, cost[3][1]:16, level_node[3]:7 pow:4, tempcost:44, cutpoint:1
+//
+now count cost[5][2], k:1, cost[1][1]:4, level_node[1]:2 pow:32, tempcost:68, cutpoint:0
+now count cost[5][2], k:2, cost[2][1]:8, level_node[2]:4 pow:16, tempcost:72, cutpoint:1
+now count cost[5][2], k:3, cost[3][1]:16, level_node[3]:7 pow:8, tempcost:72, cutpoint:1
+now count cost[5][2], k:4, cost[4][1]:32, level_node[4]:14 pow:4, tempcost:88, cutpoint:1
+//
+now count cost[6][2], k:1, cost[1][1]:4, level_node[1]:2 pow:64, tempcost:132, cutpoint:0
+now count cost[6][2], k:2, cost[2][1]:8, level_node[2]:4 pow:32, tempcost:136, cutpoint:1
+now count cost[6][2], k:3, cost[3][1]:16, level_node[3]:7 pow:16, tempcost:128, cutpoint:1
+now count cost[6][2], k:4, cost[4][1]:32, level_node[4]:14 pow:8, tempcost:144, cutpoint:3
+now count cost[6][2], k:5, cost[5][1]:64, level_node[5]:28 pow:4, tempcost:176, cutpoint:3
+//
+now count cost[7][2], k:1, cost[1][1]:4, level_node[1]:2 pow:128, tempcost:260, cutpoint:0
+now count cost[7][2], k:2, cost[2][1]:8, level_node[2]:4 pow:64, tempcost:264, cutpoint:1
+now count cost[7][2], k:3, cost[3][1]:16, level_node[3]:7 pow:32, tempcost:240, cutpoint:1
+now count cost[7][2], k:4, cost[4][1]:32, level_node[4]:14 pow:16, tempcost:256, cutpoint:3
+now count cost[7][2], k:5, cost[5][1]:64, level_node[5]:28 pow:8, tempcost:288, cutpoint:3
+now count cost[7][2], k:6, cost[6][1]:128, level_node[6]:56 pow:4, tempcost:352, cutpoint:3
+//
+now count cost[8][2], k:1, cost[1][1]:4, level_node[1]:2 pow:256, tempcost:516, cutpoint:0
+now count cost[8][2], k:2, cost[2][1]:8, level_node[2]:4 pow:128, tempcost:520, cutpoint:1
+now count cost[8][2], k:3, cost[3][1]:16, level_node[3]:7 pow:64, tempcost:464, cutpoint:1
+now count cost[8][2], k:4, cost[4][1]:32, level_node[4]:14 pow:32, tempcost:480, cutpoint:3
+now count cost[8][2], k:5, cost[5][1]:64, level_node[5]:28 pow:16, tempcost:512, cutpoint:3
+now count cost[8][2], k:6, cost[6][1]:128, level_node[6]:56 pow:8, tempcost:576, cutpoint:3
+now count cost[8][2], k:7, cost[7][1]:256, level_node[7]:112 pow:4, tempcost:704, cutpoint:3
+//
+now count cost[9][2], k:1, cost[1][1]:4, level_node[1]:2 pow:512, tempcost:1028, cutpoint:0
+now count cost[9][2], k:2, cost[2][1]:8, level_node[2]:4 pow:256, tempcost:1032, cutpoint:1
+now count cost[9][2], k:3, cost[3][1]:16, level_node[3]:7 pow:128, tempcost:912, cutpoint:1
+now count cost[9][2], k:4, cost[4][1]:32, level_node[4]:14 pow:64, tempcost:928, cutpoint:3
+now count cost[9][2], k:5, cost[5][1]:64, level_node[5]:28 pow:32, tempcost:960, cutpoint:3
+now count cost[9][2], k:6, cost[6][1]:128, level_node[6]:56 pow:16, tempcost:1024, cutpoint:3
+now count cost[9][2], k:7, cost[7][1]:256, level_node[7]:112 pow:8, tempcost:1152, cutpoint:3
+now count cost[9][2], k:8, cost[8][1]:512, level_node[8]:215 pow:4, tempcost:1372, cutpoint:3
+//
+now count cost[10][2], k:1, cost[1][1]:4, level_node[1]:2 pow:1024, tempcost:2052, cutpoint:0
+now count cost[10][2], k:2, cost[2][1]:8, level_node[2]:4 pow:512, tempcost:2056, cutpoint:1
+now count cost[10][2], k:3, cost[3][1]:16, level_node[3]:7 pow:256, tempcost:1808, cutpoint:1
+now count cost[10][2], k:4, cost[4][1]:32, level_node[4]:14 pow:128, tempcost:1824, cutpoint:3
+now count cost[10][2], k:5, cost[5][1]:64, level_node[5]:28 pow:64, tempcost:1856, cutpoint:3
+now count cost[10][2], k:6, cost[6][1]:128, level_node[6]:56 pow:32, tempcost:1920, cutpoint:3
+now count cost[10][2], k:7, cost[7][1]:256, level_node[7]:112 pow:16, tempcost:2048, cutpoint:3
+now count cost[10][2], k:8, cost[8][1]:512, level_node[8]:215 pow:8, tempcost:2232, cutpoint:3
+now count cost[10][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:4, tempcost:2712, cutpoint:3
+//
+now count cost[11][2], k:1, cost[1][1]:4, level_node[1]:2 pow:2048, tempcost:4100, cutpoint:0
+now count cost[11][2], k:2, cost[2][1]:8, level_node[2]:4 pow:1024, tempcost:4104, cutpoint:1
+now count cost[11][2], k:3, cost[3][1]:16, level_node[3]:7 pow:512, tempcost:3600, cutpoint:1
+now count cost[11][2], k:4, cost[4][1]:32, level_node[4]:14 pow:256, tempcost:3616, cutpoint:3
+now count cost[11][2], k:5, cost[5][1]:64, level_node[5]:28 pow:128, tempcost:3648, cutpoint:3
+now count cost[11][2], k:6, cost[6][1]:128, level_node[6]:56 pow:64, tempcost:3712, cutpoint:3
+now count cost[11][2], k:7, cost[7][1]:256, level_node[7]:112 pow:32, tempcost:3840, cutpoint:3
+now count cost[11][2], k:8, cost[8][1]:512, level_node[8]:215 pow:16, tempcost:3952, cutpoint:3
+now count cost[11][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:8, tempcost:4400, cutpoint:3
+now count cost[11][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:4, tempcost:5344, cutpoint:3
+//
+now count cost[12][2], k:1, cost[1][1]:4, level_node[1]:2 pow:4096, tempcost:8196, cutpoint:0
+now count cost[12][2], k:2, cost[2][1]:8, level_node[2]:4 pow:2048, tempcost:8200, cutpoint:1
+now count cost[12][2], k:3, cost[3][1]:16, level_node[3]:7 pow:1024, tempcost:7184, cutpoint:1
+now count cost[12][2], k:4, cost[4][1]:32, level_node[4]:14 pow:512, tempcost:7200, cutpoint:3
+now count cost[12][2], k:5, cost[5][1]:64, level_node[5]:28 pow:256, tempcost:7232, cutpoint:3
+now count cost[12][2], k:6, cost[6][1]:128, level_node[6]:56 pow:128, tempcost:7296, cutpoint:3
+now count cost[12][2], k:7, cost[7][1]:256, level_node[7]:112 pow:64, tempcost:7424, cutpoint:3
+now count cost[12][2], k:8, cost[8][1]:512, level_node[8]:215 pow:32, tempcost:7392, cutpoint:3
+now count cost[12][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:16, tempcost:7776, cutpoint:3
+now count cost[12][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:8, tempcost:8640, cutpoint:3
+now count cost[12][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:4, tempcost:10412, cutpoint:3
+//
+now count cost[13][2], k:1, cost[1][1]:4, level_node[1]:2 pow:8192, tempcost:16388, cutpoint:0
+now count cost[13][2], k:2, cost[2][1]:8, level_node[2]:4 pow:4096, tempcost:16392, cutpoint:1
+now count cost[13][2], k:3, cost[3][1]:16, level_node[3]:7 pow:2048, tempcost:14352, cutpoint:1
+now count cost[13][2], k:4, cost[4][1]:32, level_node[4]:14 pow:1024, tempcost:14368, cutpoint:3
+now count cost[13][2], k:5, cost[5][1]:64, level_node[5]:28 pow:512, tempcost:14400, cutpoint:3
+now count cost[13][2], k:6, cost[6][1]:128, level_node[6]:56 pow:256, tempcost:14464, cutpoint:3
+now count cost[13][2], k:7, cost[7][1]:256, level_node[7]:112 pow:128, tempcost:14592, cutpoint:3
+now count cost[13][2], k:8, cost[8][1]:512, level_node[8]:215 pow:64, tempcost:14272, cutpoint:3
+now count cost[13][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:32, tempcost:14528, cutpoint:8
+now count cost[13][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:16, tempcost:15232, cutpoint:8
+now count cost[13][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:8, tempcost:16728, cutpoint:8
+now count cost[13][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:4, tempcost:20124, cutpoint:8
+//
+now count cost[14][2], k:1, cost[1][1]:4, level_node[1]:2 pow:16384, tempcost:32772, cutpoint:0
+now count cost[14][2], k:2, cost[2][1]:8, level_node[2]:4 pow:8192, tempcost:32776, cutpoint:1
+now count cost[14][2], k:3, cost[3][1]:16, level_node[3]:7 pow:4096, tempcost:28688, cutpoint:1
+now count cost[14][2], k:4, cost[4][1]:32, level_node[4]:14 pow:2048, tempcost:28704, cutpoint:3
+now count cost[14][2], k:5, cost[5][1]:64, level_node[5]:28 pow:1024, tempcost:28736, cutpoint:3
+now count cost[14][2], k:6, cost[6][1]:128, level_node[6]:56 pow:512, tempcost:28800, cutpoint:3
+now count cost[14][2], k:7, cost[7][1]:256, level_node[7]:112 pow:256, tempcost:28928, cutpoint:3
+now count cost[14][2], k:8, cost[8][1]:512, level_node[8]:215 pow:128, tempcost:28032, cutpoint:3
+now count cost[14][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:64, tempcost:28032, cutpoint:8
+now count cost[14][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:32, tempcost:28416, cutpoint:8
+now count cost[14][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:16, tempcost:29360, cutpoint:8
+now count cost[14][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:8, tempcost:32056, cutpoint:8
+now count cost[14][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:4, tempcost:38844, cutpoint:8
+//
+now count cost[15][2], k:1, cost[1][1]:4, level_node[1]:2 pow:32768, tempcost:65540, cutpoint:0
+now count cost[15][2], k:2, cost[2][1]:8, level_node[2]:4 pow:16384, tempcost:65544, cutpoint:1
+now count cost[15][2], k:3, cost[3][1]:16, level_node[3]:7 pow:8192, tempcost:57360, cutpoint:1
+now count cost[15][2], k:4, cost[4][1]:32, level_node[4]:14 pow:4096, tempcost:57376, cutpoint:3
+now count cost[15][2], k:5, cost[5][1]:64, level_node[5]:28 pow:2048, tempcost:57408, cutpoint:3
+now count cost[15][2], k:6, cost[6][1]:128, level_node[6]:56 pow:1024, tempcost:57472, cutpoint:3
+now count cost[15][2], k:7, cost[7][1]:256, level_node[7]:112 pow:512, tempcost:57600, cutpoint:3
+now count cost[15][2], k:8, cost[8][1]:512, level_node[8]:215 pow:256, tempcost:55552, cutpoint:3
+now count cost[15][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:128, tempcost:55040, cutpoint:8
+now count cost[15][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:64, tempcost:54784, cutpoint:9
+now count cost[15][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:32, tempcost:54624, cutpoint:10
+now count cost[15][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:16, tempcost:55920, cutpoint:11
+now count cost[15][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:8, tempcost:61304, cutpoint:11
+now count cost[15][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:4, tempcost:74496, cutpoint:11
+//
+now count cost[16][2], k:1, cost[1][1]:4, level_node[1]:2 pow:65536, tempcost:131076, cutpoint:0
+now count cost[16][2], k:2, cost[2][1]:8, level_node[2]:4 pow:32768, tempcost:131080, cutpoint:1
+now count cost[16][2], k:3, cost[3][1]:16, level_node[3]:7 pow:16384, tempcost:114704, cutpoint:1
+now count cost[16][2], k:4, cost[4][1]:32, level_node[4]:14 pow:8192, tempcost:114720, cutpoint:3
+now count cost[16][2], k:5, cost[5][1]:64, level_node[5]:28 pow:4096, tempcost:114752, cutpoint:3
+now count cost[16][2], k:6, cost[6][1]:128, level_node[6]:56 pow:2048, tempcost:114816, cutpoint:3
+now count cost[16][2], k:7, cost[7][1]:256, level_node[7]:112 pow:1024, tempcost:114944, cutpoint:3
+now count cost[16][2], k:8, cost[8][1]:512, level_node[8]:215 pow:512, tempcost:110592, cutpoint:3
+now count cost[16][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:256, tempcost:109056, cutpoint:8
+now count cost[16][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:128, tempcost:107520, cutpoint:9
+now count cost[16][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:64, tempcost:105152, cutpoint:10
+now count cost[16][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:32, tempcost:103648, cutpoint:11
+now count cost[16][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:16, tempcost:106224, cutpoint:12
+now count cost[16][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:8, tempcost:116224, cutpoint:12
+now count cost[16][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:4, tempcost:141764, cutpoint:12
+//
+now count cost[17][2], k:1, cost[1][1]:4, level_node[1]:2 pow:131072, tempcost:262148, cutpoint:0
+now count cost[17][2], k:2, cost[2][1]:8, level_node[2]:4 pow:65536, tempcost:262152, cutpoint:1
+now count cost[17][2], k:3, cost[3][1]:16, level_node[3]:7 pow:32768, tempcost:229392, cutpoint:1
+now count cost[17][2], k:4, cost[4][1]:32, level_node[4]:14 pow:16384, tempcost:229408, cutpoint:3
+now count cost[17][2], k:5, cost[5][1]:64, level_node[5]:28 pow:8192, tempcost:229440, cutpoint:3
+now count cost[17][2], k:6, cost[6][1]:128, level_node[6]:56 pow:4096, tempcost:229504, cutpoint:3
+now count cost[17][2], k:7, cost[7][1]:256, level_node[7]:112 pow:2048, tempcost:229632, cutpoint:3
+now count cost[17][2], k:8, cost[8][1]:512, level_node[8]:215 pow:1024, tempcost:220672, cutpoint:3
+now count cost[17][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:512, tempcost:217088, cutpoint:8
+now count cost[17][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:256, tempcost:212992, cutpoint:9
+now count cost[17][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:128, tempcost:206208, cutpoint:10
+now count cost[17][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:64, tempcost:199104, cutpoint:11
+now count cost[17][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:32, tempcost:196064, cutpoint:12
+now count cost[17][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:16, tempcost:199680, cutpoint:13
+now count cost[17][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:8, tempcost:217992, cutpoint:13
+now count cost[17][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:4, tempcost:241956, cutpoint:13
+//
+now count cost[18][2], k:1, cost[1][1]:4, level_node[1]:2 pow:262144, tempcost:524292, cutpoint:0
+now count cost[18][2], k:2, cost[2][1]:8, level_node[2]:4 pow:131072, tempcost:524296, cutpoint:1
+now count cost[18][2], k:3, cost[3][1]:16, level_node[3]:7 pow:65536, tempcost:458768, cutpoint:1
+now count cost[18][2], k:4, cost[4][1]:32, level_node[4]:14 pow:32768, tempcost:458784, cutpoint:3
+now count cost[18][2], k:5, cost[5][1]:64, level_node[5]:28 pow:16384, tempcost:458816, cutpoint:3
+now count cost[18][2], k:6, cost[6][1]:128, level_node[6]:56 pow:8192, tempcost:458880, cutpoint:3
+now count cost[18][2], k:7, cost[7][1]:256, level_node[7]:112 pow:4096, tempcost:459008, cutpoint:3
+now count cost[18][2], k:8, cost[8][1]:512, level_node[8]:215 pow:2048, tempcost:440832, cutpoint:3
+now count cost[18][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:1024, tempcost:433152, cutpoint:8
+now count cost[18][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:512, tempcost:423936, cutpoint:9
+now count cost[18][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:256, tempcost:408320, cutpoint:10
+now count cost[18][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:128, tempcost:390016, cutpoint:11
+now count cost[18][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:64, tempcost:375744, cutpoint:12
+now count cost[18][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:32, tempcost:366592, cutpoint:13
+now count cost[18][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:16, tempcost:370448, cutpoint:14
+now count cost[18][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:8, tempcost:352840, cutpoint:14
+now count cost[18][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:4, tempcost:444272, cutpoint:16
+//
+now count cost[19][2], k:1, cost[1][1]:4, level_node[1]:2 pow:524288, tempcost:1048580, cutpoint:0
+now count cost[19][2], k:2, cost[2][1]:8, level_node[2]:4 pow:262144, tempcost:1048584, cutpoint:1
+now count cost[19][2], k:3, cost[3][1]:16, level_node[3]:7 pow:131072, tempcost:917520, cutpoint:1
+now count cost[19][2], k:4, cost[4][1]:32, level_node[4]:14 pow:65536, tempcost:917536, cutpoint:3
+now count cost[19][2], k:5, cost[5][1]:64, level_node[5]:28 pow:32768, tempcost:917568, cutpoint:3
+now count cost[19][2], k:6, cost[6][1]:128, level_node[6]:56 pow:16384, tempcost:917632, cutpoint:3
+now count cost[19][2], k:7, cost[7][1]:256, level_node[7]:112 pow:8192, tempcost:917760, cutpoint:3
+now count cost[19][2], k:8, cost[8][1]:512, level_node[8]:215 pow:4096, tempcost:881152, cutpoint:3
+now count cost[19][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:2048, tempcost:865280, cutpoint:8
+now count cost[19][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:1024, tempcost:845824, cutpoint:9
+now count cost[19][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:512, tempcost:812544, cutpoint:10
+now count cost[19][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:256, tempcost:771840, cutpoint:11
+now count cost[19][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:128, tempcost:735104, cutpoint:12
+now count cost[19][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:64, tempcost:700416, cutpoint:13
+now count cost[19][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:32, tempcost:675360, cutpoint:14
+now count cost[19][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:16, tempcost:574608, cutpoint:15
+now count cost[19][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:8, tempcost:626400, cutpoint:16
+now count cost[19][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:4, tempcost:817648, cutpoint:16
+//
+now count cost[20][2], k:1, cost[1][1]:4, level_node[1]:2 pow:1048576, tempcost:2097156, cutpoint:0
+now count cost[20][2], k:2, cost[2][1]:8, level_node[2]:4 pow:524288, tempcost:2097160, cutpoint:1
+now count cost[20][2], k:3, cost[3][1]:16, level_node[3]:7 pow:262144, tempcost:1835024, cutpoint:1
+now count cost[20][2], k:4, cost[4][1]:32, level_node[4]:14 pow:131072, tempcost:1835040, cutpoint:3
+now count cost[20][2], k:5, cost[5][1]:64, level_node[5]:28 pow:65536, tempcost:1835072, cutpoint:3
+now count cost[20][2], k:6, cost[6][1]:128, level_node[6]:56 pow:32768, tempcost:1835136, cutpoint:3
+now count cost[20][2], k:7, cost[7][1]:256, level_node[7]:112 pow:16384, tempcost:1835264, cutpoint:3
+now count cost[20][2], k:8, cost[8][1]:512, level_node[8]:215 pow:8192, tempcost:1761792, cutpoint:3
+now count cost[20][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:4096, tempcost:1729536, cutpoint:8
+now count cost[20][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:2048, tempcost:1689600, cutpoint:9
+now count cost[20][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:1024, tempcost:1620992, cutpoint:10
+now count cost[20][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:512, tempcost:1535488, cutpoint:11
+now count cost[20][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:256, tempcost:1453824, cutpoint:12
+now count cost[20][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:128, tempcost:1368064, cutpoint:13
+now count cost[20][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:64, tempcost:1285184, cutpoint:14
+now count cost[20][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:32, tempcost:1018144, cutpoint:15
+now count cost[20][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:16, tempcost:990656, cutpoint:16
+now count cost[20][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:8, tempcost:1111008, cutpoint:17
+now count cost[20][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:4, tempcost:1499628, cutpoint:17
+//
+now count cost[21][2], k:1, cost[1][1]:4, level_node[1]:2 pow:2097152, tempcost:4194308, cutpoint:0
+now count cost[21][2], k:2, cost[2][1]:8, level_node[2]:4 pow:1048576, tempcost:4194312, cutpoint:1
+now count cost[21][2], k:3, cost[3][1]:16, level_node[3]:7 pow:524288, tempcost:3670032, cutpoint:1
+now count cost[21][2], k:4, cost[4][1]:32, level_node[4]:14 pow:262144, tempcost:3670048, cutpoint:3
+now count cost[21][2], k:5, cost[5][1]:64, level_node[5]:28 pow:131072, tempcost:3670080, cutpoint:3
+now count cost[21][2], k:6, cost[6][1]:128, level_node[6]:56 pow:65536, tempcost:3670144, cutpoint:3
+now count cost[21][2], k:7, cost[7][1]:256, level_node[7]:112 pow:32768, tempcost:3670272, cutpoint:3
+now count cost[21][2], k:8, cost[8][1]:512, level_node[8]:215 pow:16384, tempcost:3523072, cutpoint:3
+now count cost[21][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:8192, tempcost:3458048, cutpoint:8
+now count cost[21][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:4096, tempcost:3377152, cutpoint:9
+now count cost[21][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:2048, tempcost:3237888, cutpoint:10
+now count cost[21][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:1024, tempcost:3062784, cutpoint:11
+now count cost[21][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:512, tempcost:2891264, cutpoint:12
+now count cost[21][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:256, tempcost:2703360, cutpoint:13
+now count cost[21][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:128, tempcost:2504832, cutpoint:14
+now count cost[21][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:64, tempcost:1905216, cutpoint:15
+now count cost[21][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:32, tempcost:1719168, cutpoint:16
+now count cost[21][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:16, tempcost:1697728, cutpoint:17
+now count cost[21][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:8, tempcost:1950680, cutpoint:18
+now count cost[21][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:4, tempcost:2749960, cutpoint:18
+//
+now count cost[22][2], k:1, cost[1][1]:4, level_node[1]:2 pow:4194304, tempcost:8388612, cutpoint:0
+now count cost[22][2], k:2, cost[2][1]:8, level_node[2]:4 pow:2097152, tempcost:8388616, cutpoint:1
+now count cost[22][2], k:3, cost[3][1]:16, level_node[3]:7 pow:1048576, tempcost:7340048, cutpoint:1
+now count cost[22][2], k:4, cost[4][1]:32, level_node[4]:14 pow:524288, tempcost:7340064, cutpoint:3
+now count cost[22][2], k:5, cost[5][1]:64, level_node[5]:28 pow:262144, tempcost:7340096, cutpoint:3
+now count cost[22][2], k:6, cost[6][1]:128, level_node[6]:56 pow:131072, tempcost:7340160, cutpoint:3
+now count cost[22][2], k:7, cost[7][1]:256, level_node[7]:112 pow:65536, tempcost:7340288, cutpoint:3
+now count cost[22][2], k:8, cost[8][1]:512, level_node[8]:215 pow:32768, tempcost:7045632, cutpoint:3
+now count cost[22][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:16384, tempcost:6915072, cutpoint:8
+now count cost[22][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:8192, tempcost:6752256, cutpoint:9
+now count cost[22][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:4096, tempcost:6471680, cutpoint:10
+now count cost[22][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:2048, tempcost:6117376, cutpoint:11
+now count cost[22][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:1024, tempcost:5766144, cutpoint:12
+now count cost[22][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:512, tempcost:5373952, cutpoint:13
+now count cost[22][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:256, tempcost:4944128, cutpoint:14
+now count cost[22][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:128, tempcost:3679360, cutpoint:15
+now count cost[22][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:64, tempcost:3176192, cutpoint:16
+now count cost[22][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:32, tempcost:2871168, cutpoint:17
+now count cost[22][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:16, tempcost:2852784, cutpoint:18
+now count cost[22][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:8, tempcost:3402768, cutpoint:19
+now count cost[22][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:4, tempcost:5125460, cutpoint:19
+//
+now count cost[23][2], k:1, cost[1][1]:4, level_node[1]:2 pow:8388608, tempcost:16777220, cutpoint:0
+now count cost[23][2], k:2, cost[2][1]:8, level_node[2]:4 pow:4194304, tempcost:16777224, cutpoint:1
+now count cost[23][2], k:3, cost[3][1]:16, level_node[3]:7 pow:2097152, tempcost:14680080, cutpoint:1
+now count cost[23][2], k:4, cost[4][1]:32, level_node[4]:14 pow:1048576, tempcost:14680096, cutpoint:3
+now count cost[23][2], k:5, cost[5][1]:64, level_node[5]:28 pow:524288, tempcost:14680128, cutpoint:3
+now count cost[23][2], k:6, cost[6][1]:128, level_node[6]:56 pow:262144, tempcost:14680192, cutpoint:3
+now count cost[23][2], k:7, cost[7][1]:256, level_node[7]:112 pow:131072, tempcost:14680320, cutpoint:3
+now count cost[23][2], k:8, cost[8][1]:512, level_node[8]:215 pow:65536, tempcost:14090752, cutpoint:3
+now count cost[23][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:32768, tempcost:13829120, cutpoint:8
+now count cost[23][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:16384, tempcost:13502464, cutpoint:9
+now count cost[23][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:8192, tempcost:12939264, cutpoint:10
+now count cost[23][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:4096, tempcost:12226560, cutpoint:11
+now count cost[23][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:2048, tempcost:11515904, cutpoint:12
+now count cost[23][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:1024, tempcost:10715136, cutpoint:13
+now count cost[23][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:512, tempcost:9822720, cutpoint:14
+now count cost[23][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:256, tempcost:7227648, cutpoint:15
+now count cost[23][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:128, tempcost:6090240, cutpoint:16
+now count cost[23][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:64, tempcost:5218048, cutpoint:17
+now count cost[23][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:32, tempcost:4656992, cutpoint:18
+now count cost[23][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:16, tempcost:4708384, cutpoint:19
+now count cost[23][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:8, tempcost:6056616, cutpoint:19
+now count cost[23][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:4, tempcost:9559748, cutpoint:19
+//
+now count cost[24][2], k:1, cost[1][1]:4, level_node[1]:2 pow:16777216, tempcost:33554436, cutpoint:0
+now count cost[24][2], k:2, cost[2][1]:8, level_node[2]:4 pow:8388608, tempcost:33554440, cutpoint:1
+now count cost[24][2], k:3, cost[3][1]:16, level_node[3]:7 pow:4194304, tempcost:29360144, cutpoint:1
+now count cost[24][2], k:4, cost[4][1]:32, level_node[4]:14 pow:2097152, tempcost:29360160, cutpoint:3
+now count cost[24][2], k:5, cost[5][1]:64, level_node[5]:28 pow:1048576, tempcost:29360192, cutpoint:3
+now count cost[24][2], k:6, cost[6][1]:128, level_node[6]:56 pow:524288, tempcost:29360256, cutpoint:3
+now count cost[24][2], k:7, cost[7][1]:256, level_node[7]:112 pow:262144, tempcost:29360384, cutpoint:3
+now count cost[24][2], k:8, cost[8][1]:512, level_node[8]:215 pow:131072, tempcost:28180992, cutpoint:3
+now count cost[24][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:65536, tempcost:27657216, cutpoint:8
+now count cost[24][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:32768, tempcost:27002880, cutpoint:9
+now count cost[24][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:16384, tempcost:25874432, cutpoint:10
+now count cost[24][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:8192, tempcost:24444928, cutpoint:11
+now count cost[24][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:4096, tempcost:23015424, cutpoint:12
+now count cost[24][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:2048, tempcost:21397504, cutpoint:13
+now count cost[24][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:1024, tempcost:19579904, cutpoint:14
+now count cost[24][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:512, tempcost:14324224, cutpoint:15
+now count cost[24][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:256, tempcost:11918336, cutpoint:16
+now count cost[24][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:128, tempcost:9911808, cutpoint:17
+now count cost[24][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:64, tempcost:8265408, cutpoint:18
+now count cost[24][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:32, tempcost:7319616, cutpoint:19
+now count cost[24][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:16, tempcost:7918928, cutpoint:20
+now count cost[24][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:8, tempcost:10730888, cutpoint:20
+now count cost[24][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:4, tempcost:18343248, cutpoint:20
+//
+now count cost[25][2], k:1, cost[1][1]:4, level_node[1]:2 pow:33554432, tempcost:67108868, cutpoint:0
+now count cost[25][2], k:2, cost[2][1]:8, level_node[2]:4 pow:16777216, tempcost:67108872, cutpoint:1
+now count cost[25][2], k:3, cost[3][1]:16, level_node[3]:7 pow:8388608, tempcost:58720272, cutpoint:1
+now count cost[25][2], k:4, cost[4][1]:32, level_node[4]:14 pow:4194304, tempcost:58720288, cutpoint:3
+now count cost[25][2], k:5, cost[5][1]:64, level_node[5]:28 pow:2097152, tempcost:58720320, cutpoint:3
+now count cost[25][2], k:6, cost[6][1]:128, level_node[6]:56 pow:1048576, tempcost:58720384, cutpoint:3
+now count cost[25][2], k:7, cost[7][1]:256, level_node[7]:112 pow:524288, tempcost:58720512, cutpoint:3
+now count cost[25][2], k:8, cost[8][1]:512, level_node[8]:215 pow:262144, tempcost:56361472, cutpoint:3
+now count cost[25][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:131072, tempcost:55313408, cutpoint:8
+now count cost[25][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:65536, tempcost:54003712, cutpoint:9
+now count cost[25][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:32768, tempcost:51744768, cutpoint:10
+now count cost[25][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:16384, tempcost:48881664, cutpoint:11
+now count cost[25][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:8192, tempcost:46014464, cutpoint:12
+now count cost[25][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:4096, tempcost:42762240, cutpoint:13
+now count cost[25][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:2048, tempcost:39094272, cutpoint:14
+now count cost[25][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:1024, tempcost:28517376, cutpoint:15
+now count cost[25][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:512, tempcost:23574528, cutpoint:16
+now count cost[25][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:256, tempcost:19299328, cutpoint:17
+now count cost[25][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:128, tempcost:15482240, cutpoint:18
+now count cost[25][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:64, tempcost:12542080, cutpoint:19
+now count cost[25][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:32, tempcost:11643552, cutpoint:20
+now count cost[25][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:16, tempcost:13073168, cutpoint:21
+now count cost[25][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:8, tempcost:19909280, cutpoint:21
+now count cost[25][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:4, tempcost:33590140, cutpoint:21
+//
+now count cost[26][2], k:1, cost[1][1]:4, level_node[1]:2 pow:67108864, tempcost:134217732, cutpoint:0
+now count cost[26][2], k:2, cost[2][1]:8, level_node[2]:4 pow:33554432, tempcost:134217736, cutpoint:1
+now count cost[26][2], k:3, cost[3][1]:16, level_node[3]:7 pow:16777216, tempcost:117440528, cutpoint:1
+now count cost[26][2], k:4, cost[4][1]:32, level_node[4]:14 pow:8388608, tempcost:117440544, cutpoint:3
+now count cost[26][2], k:5, cost[5][1]:64, level_node[5]:28 pow:4194304, tempcost:117440576, cutpoint:3
+now count cost[26][2], k:6, cost[6][1]:128, level_node[6]:56 pow:2097152, tempcost:117440640, cutpoint:3
+now count cost[26][2], k:7, cost[7][1]:256, level_node[7]:112 pow:1048576, tempcost:117440768, cutpoint:3
+now count cost[26][2], k:8, cost[8][1]:512, level_node[8]:215 pow:524288, tempcost:112722432, cutpoint:3
+now count cost[26][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:262144, tempcost:110625792, cutpoint:8
+now count cost[26][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:131072, tempcost:108005376, cutpoint:9
+now count cost[26][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:65536, tempcost:103485440, cutpoint:10
+now count cost[26][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:32768, tempcost:97755136, cutpoint:11
+now count cost[26][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:16384, tempcost:92012544, cutpoint:12
+now count cost[26][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:8192, tempcost:85491712, cutpoint:13
+now count cost[26][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:4096, tempcost:78123008, cutpoint:14
+now count cost[26][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:2048, tempcost:56903680, cutpoint:15
+now count cost[26][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:1024, tempcost:46886912, cutpoint:16
+now count cost[26][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:512, tempcost:38074368, cutpoint:17
+now count cost[26][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:256, tempcost:29915904, cutpoint:18
+now count cost[26][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:128, tempcost:22987008, cutpoint:19
+now count cost[26][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:64, tempcost:19092800, cutpoint:20
+now count cost[26][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:32, tempcost:17757728, cutpoint:21
+now count cost[26][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:16, tempcost:23041344, cutpoint:22
+now count cost[26][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:8, tempcost:33625848, cutpoint:22
+now count cost[26][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:4, tempcost:67145760, cutpoint:22
+//
+now count cost[27][2], k:1, cost[1][1]:4, level_node[1]:2 pow:134217728, tempcost:268435460, cutpoint:0
+now count cost[27][2], k:2, cost[2][1]:8, level_node[2]:4 pow:67108864, tempcost:268435464, cutpoint:1
+now count cost[27][2], k:3, cost[3][1]:16, level_node[3]:7 pow:33554432, tempcost:234881040, cutpoint:1
+now count cost[27][2], k:4, cost[4][1]:32, level_node[4]:14 pow:16777216, tempcost:234881056, cutpoint:3
+now count cost[27][2], k:5, cost[5][1]:64, level_node[5]:28 pow:8388608, tempcost:234881088, cutpoint:3
+now count cost[27][2], k:6, cost[6][1]:128, level_node[6]:56 pow:4194304, tempcost:234881152, cutpoint:3
+now count cost[27][2], k:7, cost[7][1]:256, level_node[7]:112 pow:2097152, tempcost:234881280, cutpoint:3
+now count cost[27][2], k:8, cost[8][1]:512, level_node[8]:215 pow:1048576, tempcost:225444352, cutpoint:3
+now count cost[27][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:524288, tempcost:221250560, cutpoint:8
+now count cost[27][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:262144, tempcost:216008704, cutpoint:9
+now count cost[27][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:131072, tempcost:206966784, cutpoint:10
+now count cost[27][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:65536, tempcost:195502080, cutpoint:11
+now count cost[27][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:32768, tempcost:184008704, cutpoint:12
+now count cost[27][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:16384, tempcost:170950656, cutpoint:13
+now count cost[27][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:8192, tempcost:156180480, cutpoint:14
+now count cost[27][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:4096, tempcost:113676288, cutpoint:15
+now count cost[27][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:2048, tempcost:93511680, cutpoint:16
+now count cost[27][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:1024, tempcost:75624448, cutpoint:17
+now count cost[27][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:512, tempcost:58783232, cutpoint:18
+now count cost[27][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:256, tempcost:43876864, cutpoint:19
+now count cost[27][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:128, tempcost:33991296, cutpoint:20
+now count cost[27][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:64, tempcost:27126848, cutpoint:21
+now count cost[27][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:32, tempcost:29305472, cutpoint:22
+now count cost[27][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:16, tempcost:33697264, cutpoint:22
+now count cost[27][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:8, tempcost:67182656, cutpoint:22
+now count cost[27][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:4, tempcost:134255384, cutpoint:22
+//
+now count cost[28][2], k:1, cost[1][1]:4, level_node[1]:2 pow:268435456, tempcost:536870916, cutpoint:0
+now count cost[28][2], k:2, cost[2][1]:8, level_node[2]:4 pow:134217728, tempcost:536870920, cutpoint:1
+now count cost[28][2], k:3, cost[3][1]:16, level_node[3]:7 pow:67108864, tempcost:469762064, cutpoint:1
+now count cost[28][2], k:4, cost[4][1]:32, level_node[4]:14 pow:33554432, tempcost:469762080, cutpoint:3
+now count cost[28][2], k:5, cost[5][1]:64, level_node[5]:28 pow:16777216, tempcost:469762112, cutpoint:3
+now count cost[28][2], k:6, cost[6][1]:128, level_node[6]:56 pow:8388608, tempcost:469762176, cutpoint:3
+now count cost[28][2], k:7, cost[7][1]:256, level_node[7]:112 pow:4194304, tempcost:469762304, cutpoint:3
+now count cost[28][2], k:8, cost[8][1]:512, level_node[8]:215 pow:2097152, tempcost:450888192, cutpoint:3
+now count cost[28][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:1048576, tempcost:442500096, cutpoint:8
+now count cost[28][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:524288, tempcost:432015360, cutpoint:9
+now count cost[28][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:262144, tempcost:413929472, cutpoint:10
+now count cost[28][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:131072, tempcost:390995968, cutpoint:11
+now count cost[28][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:65536, tempcost:368001024, cutpoint:12
+now count cost[28][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:32768, tempcost:341868544, cutpoint:13
+now count cost[28][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:16384, tempcost:312295424, cutpoint:14
+now count cost[28][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:8192, tempcost:227221504, cutpoint:15
+now count cost[28][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:4096, tempcost:186761216, cutpoint:16
+now count cost[28][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:2048, tempcost:150724608, cutpoint:17
+now count cost[28][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:1024, tempcost:116517888, cutpoint:18
+now count cost[28][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:512, tempcost:85656576, cutpoint:19
+now count cost[28][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:256, tempcost:63788288, cutpoint:20
+now count cost[28][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:128, tempcost:45865088, cutpoint:21
+now count cost[28][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:64, tempcost:41833728, cutpoint:22
+now count cost[28][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:32, tempcost:33840096, cutpoint:23
+now count cost[28][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:16, tempcost:67256448, cutpoint:24
+now count cost[28][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:8, tempcost:134293040, cutpoint:24
+now count cost[28][2], k:27, cost[27][1]:268435456, level_node[27]:10053 pow:4, tempcost:268475668, cutpoint:24
+//
+now count cost[29][2], k:1, cost[1][1]:4, level_node[1]:2 pow:536870912, tempcost:1073741828, cutpoint:0
+now count cost[29][2], k:2, cost[2][1]:8, level_node[2]:4 pow:268435456, tempcost:1073741832, cutpoint:1
+now count cost[29][2], k:3, cost[3][1]:16, level_node[3]:7 pow:134217728, tempcost:939524112, cutpoint:1
+now count cost[29][2], k:4, cost[4][1]:32, level_node[4]:14 pow:67108864, tempcost:939524128, cutpoint:3
+now count cost[29][2], k:5, cost[5][1]:64, level_node[5]:28 pow:33554432, tempcost:939524160, cutpoint:3
+now count cost[29][2], k:6, cost[6][1]:128, level_node[6]:56 pow:16777216, tempcost:939524224, cutpoint:3
+now count cost[29][2], k:7, cost[7][1]:256, level_node[7]:112 pow:8388608, tempcost:939524352, cutpoint:3
+now count cost[29][2], k:8, cost[8][1]:512, level_node[8]:215 pow:4194304, tempcost:901775872, cutpoint:3
+now count cost[29][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:2097152, tempcost:884999168, cutpoint:8
+now count cost[29][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:1048576, tempcost:864028672, cutpoint:9
+now count cost[29][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:524288, tempcost:827854848, cutpoint:10
+now count cost[29][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:262144, tempcost:781983744, cutpoint:11
+now count cost[29][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:131072, tempcost:735985664, cutpoint:12
+now count cost[29][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:65536, tempcost:683704320, cutpoint:13
+now count cost[29][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:32768, tempcost:624525312, cutpoint:14
+now count cost[29][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:16384, tempcost:454311936, cutpoint:15
+now count cost[29][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:8192, tempcost:373260288, cutpoint:16
+now count cost[29][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:4096, tempcost:300924928, cutpoint:17
+now count cost[29][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:2048, tempcost:231987200, cutpoint:18
+now count cost[29][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:1024, tempcost:169216000, cutpoint:19
+now count cost[29][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:512, tempcost:123382272, cutpoint:20
+now count cost[29][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:256, tempcost:83341568, cutpoint:21
+now count cost[29][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:128, tempcost:66890240, cutpoint:22
+now count cost[29][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:64, tempcost:34125760, cutpoint:23
+now count cost[29][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:32, tempcost:67404032, cutpoint:24
+now count cost[29][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:16, tempcost:134368352, cutpoint:24
+now count cost[29][2], k:27, cost[27][1]:268435456, level_node[27]:10053 pow:8, tempcost:268515880, cutpoint:24
+now count cost[29][2], k:28, cost[28][1]:536870912, level_node[28]:10985 pow:4, tempcost:536914852, cutpoint:24
+//
+now count cost[30][2], k:1, cost[1][1]:4, level_node[1]:2 pow:1073741824, tempcost:2147483652, cutpoint:0
+now count cost[30][2], k:2, cost[2][1]:8, level_node[2]:4 pow:536870912, tempcost:2147483656, cutpoint:1
+now count cost[30][2], k:3, cost[3][1]:16, level_node[3]:7 pow:268435456, tempcost:1879048208, cutpoint:1
+now count cost[30][2], k:4, cost[4][1]:32, level_node[4]:14 pow:134217728, tempcost:1879048224, cutpoint:3
+now count cost[30][2], k:5, cost[5][1]:64, level_node[5]:28 pow:67108864, tempcost:1879048256, cutpoint:3
+now count cost[30][2], k:6, cost[6][1]:128, level_node[6]:56 pow:33554432, tempcost:1879048320, cutpoint:3
+now count cost[30][2], k:7, cost[7][1]:256, level_node[7]:112 pow:16777216, tempcost:1879048448, cutpoint:3
+now count cost[30][2], k:8, cost[8][1]:512, level_node[8]:215 pow:8388608, tempcost:1803551232, cutpoint:3
+now count cost[30][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:4194304, tempcost:1769997312, cutpoint:8
+now count cost[30][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:2097152, tempcost:1728055296, cutpoint:9
+now count cost[30][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:1048576, tempcost:1655705600, cutpoint:10
+now count cost[30][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:524288, tempcost:1563959296, cutpoint:11
+now count cost[30][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:262144, tempcost:1471954944, cutpoint:12
+now count cost[30][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:131072, tempcost:1367375872, cutpoint:13
+now count cost[30][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:65536, tempcost:1248985088, cutpoint:14
+now count cost[30][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:32768, tempcost:908492800, cutpoint:15
+now count cost[30][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:16384, tempcost:746258432, cutpoint:16
+now count cost[30][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:8192, tempcost:601325568, cutpoint:17
+now count cost[30][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:4096, tempcost:462925824, cutpoint:18
+now count cost[30][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:2048, tempcost:336334848, cutpoint:19
+now count cost[30][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:1024, tempcost:242570240, cutpoint:20
+now count cost[30][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:512, tempcost:158294528, cutpoint:21
+now count cost[30][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:256, tempcost:117003264, cutpoint:22
+now count cost[30][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:128, tempcost:34697088, cutpoint:23
+now count cost[30][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:64, tempcost:67699200, cutpoint:24
+now count cost[30][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:32, tempcost:134518976, cutpoint:24
+now count cost[30][2], k:27, cost[27][1]:268435456, level_node[27]:10053 pow:16, tempcost:268596304, cutpoint:24
+now count cost[30][2], k:28, cost[28][1]:536870912, level_node[28]:10985 pow:8, tempcost:536958792, cutpoint:24
+now count cost[30][2], k:29, cost[29][1]:1073741824, level_node[29]:10193 pow:4, tempcost:1073782596, cutpoint:24
+//
+now count cost[31][2], k:1, cost[1][1]:4, level_node[1]:2 pow:-2147483648, tempcost:-4294967292, cutpoint:0
+now count cost[31][2], k:2, cost[2][1]:8, level_node[2]:4 pow:1073741824, tempcost:4294967304, cutpoint:1
+now count cost[31][2], k:3, cost[3][1]:16, level_node[3]:7 pow:536870912, tempcost:3758096400, cutpoint:2
+now count cost[31][2], k:4, cost[4][1]:32, level_node[4]:14 pow:268435456, tempcost:3758096416, cutpoint:3
+now count cost[31][2], k:5, cost[5][1]:64, level_node[5]:28 pow:134217728, tempcost:3758096448, cutpoint:3
+now count cost[31][2], k:6, cost[6][1]:128, level_node[6]:56 pow:67108864, tempcost:3758096512, cutpoint:3
+now count cost[31][2], k:7, cost[7][1]:256, level_node[7]:112 pow:33554432, tempcost:3758096640, cutpoint:3
+now count cost[31][2], k:8, cost[8][1]:512, level_node[8]:215 pow:16777216, tempcost:3607101952, cutpoint:3
+now count cost[31][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:8388608, tempcost:3539993600, cutpoint:8
+now count cost[31][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:4194304, tempcost:3456108544, cutpoint:9
+now count cost[31][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:2097152, tempcost:3311407104, cutpoint:10
+now count cost[31][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:1048576, tempcost:3127910400, cutpoint:11
+now count cost[31][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:524288, tempcost:2943893504, cutpoint:12
+now count cost[31][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:262144, tempcost:2734718976, cutpoint:13
+now count cost[31][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:131072, tempcost:2497904640, cutpoint:14
+now count cost[31][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:65536, tempcost:1816854528, cutpoint:15
+now count cost[31][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:32768, tempcost:1492254720, cutpoint:16
+now count cost[31][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:16384, tempcost:1202126848, cutpoint:17
+now count cost[31][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:8192, tempcost:924803072, cutpoint:18
+now count cost[31][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:4096, tempcost:670572544, cutpoint:19
+now count cost[31][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:2048, tempcost:480946176, cutpoint:20
+now count cost[31][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:1024, tempcost:308200448, cutpoint:21
+now count cost[31][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:512, tempcost:217229312, cutpoint:22
+now count cost[31][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:256, tempcost:35839744, cutpoint:23
+now count cost[31][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:128, tempcost:68289536, cutpoint:24
+now count cost[31][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:64, tempcost:134820224, cutpoint:24
+now count cost[31][2], k:27, cost[27][1]:268435456, level_node[27]:10053 pow:32, tempcost:268757152, cutpoint:24
+now count cost[31][2], k:28, cost[28][1]:536870912, level_node[28]:10985 pow:16, tempcost:537046672, cutpoint:24
+now count cost[31][2], k:29, cost[29][1]:1073741824, level_node[29]:10193 pow:8, tempcost:1073823368, cutpoint:24
+now count cost[31][2], k:30, cost[30][1]:-2147483648, level_node[30]:9854 pow:4, tempcost:-2147444232, cutpoint:24
+//
+now count cost[32][2], k:1, cost[1][1]:4, level_node[1]:2 pow:0, tempcost:4, cutpoint:0
+now count cost[32][2], k:2, cost[2][1]:8, level_node[2]:4 pow:-2147483648, tempcost:-8589934584, cutpoint:1
+now count cost[32][2], k:3, cost[3][1]:16, level_node[3]:7 pow:1073741824, tempcost:7516192784, cutpoint:1
+now count cost[32][2], k:4, cost[4][1]:32, level_node[4]:14 pow:536870912, tempcost:7516192800, cutpoint:1
+now count cost[32][2], k:5, cost[5][1]:64, level_node[5]:28 pow:268435456, tempcost:7516192832, cutpoint:1
+now count cost[32][2], k:6, cost[6][1]:128, level_node[6]:56 pow:134217728, tempcost:7516192896, cutpoint:1
+now count cost[32][2], k:7, cost[7][1]:256, level_node[7]:112 pow:67108864, tempcost:7516193024, cutpoint:1
+now count cost[32][2], k:8, cost[8][1]:512, level_node[8]:215 pow:33554432, tempcost:7214203392, cutpoint:1
+now count cost[32][2], k:9, cost[9][1]:1024, level_node[9]:422 pow:16777216, tempcost:7079986176, cutpoint:1
+now count cost[32][2], k:10, cost[10][1]:2048, level_node[10]:824 pow:8388608, tempcost:6912215040, cutpoint:1
+now count cost[32][2], k:11, cost[11][1]:4096, level_node[11]:1579 pow:4194304, tempcost:6622810112, cutpoint:1
+now count cost[32][2], k:12, cost[12][1]:8192, level_node[12]:2983 pow:2097152, tempcost:6255812608, cutpoint:1
+now count cost[32][2], k:13, cost[13][1]:16384, level_node[13]:5615 pow:1048576, tempcost:5887770624, cutpoint:1
+now count cost[32][2], k:14, cost[14][1]:32768, level_node[14]:10432 pow:524288, tempcost:5469405184, cutpoint:1
+now count cost[32][2], k:15, cost[15][1]:65536, level_node[15]:19057 pow:262144, tempcost:4995743744, cutpoint:1
+now count cost[32][2], k:16, cost[16][1]:131072, level_node[16]:27721 pow:131072, tempcost:3633577984, cutpoint:1
+now count cost[32][2], k:17, cost[17][1]:262144, level_node[17]:45532 pow:65536, tempcost:2984247296, cutpoint:1
+now count cost[32][2], k:18, cost[18][1]:524288, level_node[18]:73340 pow:32768, tempcost:2403729408, cutpoint:1
+now count cost[32][2], k:19, cost[19][1]:1048576, level_node[19]:112763 pow:16384, tempcost:1848557568, cutpoint:1
+now count cost[32][2], k:20, cost[20][1]:2097152, level_node[20]:163202 pow:8192, tempcost:1339047936, cutpoint:1
+now count cost[32][2], k:21, cost[21][1]:4194304, level_node[21]:232789 pow:4096, tempcost:957698048, cutpoint:1
+now count cost[32][2], k:22, cost[22][1]:8388608, level_node[22]:292785 pow:2048, tempcost:608012288, cutpoint:1
+now count cost[32][2], k:23, cost[23][1]:16777216, level_node[23]:391508 pow:1024, tempcost:417681408, cutpoint:1
+now count cost[32][2], k:24, cost[24][1]:33554432, level_node[24]:8927 pow:512, tempcost:38125056, cutpoint:1
+now count cost[32][2], k:25, cost[25][1]:67108864, level_node[25]:9224 pow:256, tempcost:69470208, cutpoint:1
+now count cost[32][2], k:26, cost[26][1]:134217728, level_node[26]:9414 pow:128, tempcost:135422720, cutpoint:1
+now count cost[32][2], k:27, cost[27][1]:268435456, level_node[27]:10053 pow:64, tempcost:269078848, cutpoint:1
+now count cost[32][2], k:28, cost[28][1]:536870912, level_node[28]:10985 pow:32, tempcost:537222432, cutpoint:1
+now count cost[32][2], k:29, cost[29][1]:1073741824, level_node[29]:10193 pow:16, tempcost:1073904912, cutpoint:1
+now count cost[32][2], k:30, cost[30][1]:-2147483648, level_node[30]:9854 pow:8, tempcost:-2147404816, cutpoint:1
+now count cost[32][2], k:31, cost[31][1]:0, level_node[31]:13201 pow:4, tempcost:52804, cutpoint:1
+//
+//
+//
+now count cost[3][3], k:2, cost[2][2]:12, level_node[2]:4 pow:4, tempcost:28, cutpoint:0
+//
+now count cost[4][3], k:2, cost[2][2]:12, level_node[2]:4 pow:8, tempcost:44, cutpoint:0
+now count cost[4][3], k:3, cost[3][2]:20, level_node[3]:7 pow:4, tempcost:48, cutpoint:2
+//
+now count cost[5][3], k:2, cost[2][2]:12, level_node[2]:4 pow:16, tempcost:76, cutpoint:0
+now count cost[5][3], k:3, cost[3][2]:20, level_node[3]:7 pow:8, tempcost:76, cutpoint:2
+now count cost[5][3], k:4, cost[4][2]:36, level_node[4]:14 pow:4, tempcost:92, cutpoint:2
+//
+now count cost[6][3], k:2, cost[2][2]:12, level_node[2]:4 pow:32, tempcost:140, cutpoint:0
+now count cost[6][3], k:3, cost[3][2]:20, level_node[3]:7 pow:16, tempcost:132, cutpoint:2
+now count cost[6][3], k:4, cost[4][2]:36, level_node[4]:14 pow:8, tempcost:148, cutpoint:3
+now count cost[6][3], k:5, cost[5][2]:68, level_node[5]:28 pow:4, tempcost:180, cutpoint:3
+//
+now count cost[7][3], k:2, cost[2][2]:12, level_node[2]:4 pow:64, tempcost:268, cutpoint:0
+now count cost[7][3], k:3, cost[3][2]:20, level_node[3]:7 pow:32, tempcost:244, cutpoint:2
+now count cost[7][3], k:4, cost[4][2]:36, level_node[4]:14 pow:16, tempcost:260, cutpoint:3
+now count cost[7][3], k:5, cost[5][2]:68, level_node[5]:28 pow:8, tempcost:292, cutpoint:3
+now count cost[7][3], k:6, cost[6][2]:128, level_node[6]:56 pow:4, tempcost:352, cutpoint:3
+//
+now count cost[8][3], k:2, cost[2][2]:12, level_node[2]:4 pow:128, tempcost:524, cutpoint:0
+now count cost[8][3], k:3, cost[3][2]:20, level_node[3]:7 pow:64, tempcost:468, cutpoint:2
+now count cost[8][3], k:4, cost[4][2]:36, level_node[4]:14 pow:32, tempcost:484, cutpoint:3
+now count cost[8][3], k:5, cost[5][2]:68, level_node[5]:28 pow:16, tempcost:516, cutpoint:3
+now count cost[8][3], k:6, cost[6][2]:128, level_node[6]:56 pow:8, tempcost:576, cutpoint:3
+now count cost[8][3], k:7, cost[7][2]:240, level_node[7]:112 pow:4, tempcost:688, cutpoint:3
+//
+now count cost[9][3], k:2, cost[2][2]:12, level_node[2]:4 pow:256, tempcost:1036, cutpoint:0
+now count cost[9][3], k:3, cost[3][2]:20, level_node[3]:7 pow:128, tempcost:916, cutpoint:2
+now count cost[9][3], k:4, cost[4][2]:36, level_node[4]:14 pow:64, tempcost:932, cutpoint:3
+now count cost[9][3], k:5, cost[5][2]:68, level_node[5]:28 pow:32, tempcost:964, cutpoint:3
+now count cost[9][3], k:6, cost[6][2]:128, level_node[6]:56 pow:16, tempcost:1024, cutpoint:3
+now count cost[9][3], k:7, cost[7][2]:240, level_node[7]:112 pow:8, tempcost:1136, cutpoint:3
+now count cost[9][3], k:8, cost[8][2]:464, level_node[8]:215 pow:4, tempcost:1324, cutpoint:3
+//
+now count cost[10][3], k:2, cost[2][2]:12, level_node[2]:4 pow:512, tempcost:2060, cutpoint:0
+now count cost[10][3], k:3, cost[3][2]:20, level_node[3]:7 pow:256, tempcost:1812, cutpoint:2
+now count cost[10][3], k:4, cost[4][2]:36, level_node[4]:14 pow:128, tempcost:1828, cutpoint:3
+now count cost[10][3], k:5, cost[5][2]:68, level_node[5]:28 pow:64, tempcost:1860, cutpoint:3
+now count cost[10][3], k:6, cost[6][2]:128, level_node[6]:56 pow:32, tempcost:1920, cutpoint:3
+now count cost[10][3], k:7, cost[7][2]:240, level_node[7]:112 pow:16, tempcost:2032, cutpoint:3
+now count cost[10][3], k:8, cost[8][2]:464, level_node[8]:215 pow:8, tempcost:2184, cutpoint:3
+now count cost[10][3], k:9, cost[9][2]:912, level_node[9]:422 pow:4, tempcost:2600, cutpoint:3
+//
+now count cost[11][3], k:2, cost[2][2]:12, level_node[2]:4 pow:1024, tempcost:4108, cutpoint:0
+now count cost[11][3], k:3, cost[3][2]:20, level_node[3]:7 pow:512, tempcost:3604, cutpoint:2
+now count cost[11][3], k:4, cost[4][2]:36, level_node[4]:14 pow:256, tempcost:3620, cutpoint:3
+now count cost[11][3], k:5, cost[5][2]:68, level_node[5]:28 pow:128, tempcost:3652, cutpoint:3
+now count cost[11][3], k:6, cost[6][2]:128, level_node[6]:56 pow:64, tempcost:3712, cutpoint:3
+now count cost[11][3], k:7, cost[7][2]:240, level_node[7]:112 pow:32, tempcost:3824, cutpoint:3
+now count cost[11][3], k:8, cost[8][2]:464, level_node[8]:215 pow:16, tempcost:3904, cutpoint:3
+now count cost[11][3], k:9, cost[9][2]:912, level_node[9]:422 pow:8, tempcost:4288, cutpoint:3
+now count cost[11][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:4, tempcost:5104, cutpoint:3
+//
+now count cost[12][3], k:2, cost[2][2]:12, level_node[2]:4 pow:2048, tempcost:8204, cutpoint:0
+now count cost[12][3], k:3, cost[3][2]:20, level_node[3]:7 pow:1024, tempcost:7188, cutpoint:2
+now count cost[12][3], k:4, cost[4][2]:36, level_node[4]:14 pow:512, tempcost:7204, cutpoint:3
+now count cost[12][3], k:5, cost[5][2]:68, level_node[5]:28 pow:256, tempcost:7236, cutpoint:3
+now count cost[12][3], k:6, cost[6][2]:128, level_node[6]:56 pow:128, tempcost:7296, cutpoint:3
+now count cost[12][3], k:7, cost[7][2]:240, level_node[7]:112 pow:64, tempcost:7408, cutpoint:3
+now count cost[12][3], k:8, cost[8][2]:464, level_node[8]:215 pow:32, tempcost:7344, cutpoint:3
+now count cost[12][3], k:9, cost[9][2]:912, level_node[9]:422 pow:16, tempcost:7664, cutpoint:3
+now count cost[12][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:8, tempcost:8400, cutpoint:3
+now count cost[12][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:4, tempcost:9916, cutpoint:3
+//
+now count cost[13][3], k:2, cost[2][2]:12, level_node[2]:4 pow:4096, tempcost:16396, cutpoint:0
+now count cost[13][3], k:3, cost[3][2]:20, level_node[3]:7 pow:2048, tempcost:14356, cutpoint:2
+now count cost[13][3], k:4, cost[4][2]:36, level_node[4]:14 pow:1024, tempcost:14372, cutpoint:3
+now count cost[13][3], k:5, cost[5][2]:68, level_node[5]:28 pow:512, tempcost:14404, cutpoint:3
+now count cost[13][3], k:6, cost[6][2]:128, level_node[6]:56 pow:256, tempcost:14464, cutpoint:3
+now count cost[13][3], k:7, cost[7][2]:240, level_node[7]:112 pow:128, tempcost:14576, cutpoint:3
+now count cost[13][3], k:8, cost[8][2]:464, level_node[8]:215 pow:64, tempcost:14224, cutpoint:3
+now count cost[13][3], k:9, cost[9][2]:912, level_node[9]:422 pow:32, tempcost:14416, cutpoint:8
+now count cost[13][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:16, tempcost:14992, cutpoint:8
+now count cost[13][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:8, tempcost:16232, cutpoint:8
+now count cost[13][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:4, tempcost:19116, cutpoint:8
+//
+now count cost[14][3], k:2, cost[2][2]:12, level_node[2]:4 pow:8192, tempcost:32780, cutpoint:0
+now count cost[14][3], k:3, cost[3][2]:20, level_node[3]:7 pow:4096, tempcost:28692, cutpoint:2
+now count cost[14][3], k:4, cost[4][2]:36, level_node[4]:14 pow:2048, tempcost:28708, cutpoint:3
+now count cost[14][3], k:5, cost[5][2]:68, level_node[5]:28 pow:1024, tempcost:28740, cutpoint:3
+now count cost[14][3], k:6, cost[6][2]:128, level_node[6]:56 pow:512, tempcost:28800, cutpoint:3
+now count cost[14][3], k:7, cost[7][2]:240, level_node[7]:112 pow:256, tempcost:28912, cutpoint:3
+now count cost[14][3], k:8, cost[8][2]:464, level_node[8]:215 pow:128, tempcost:27984, cutpoint:3
+now count cost[14][3], k:9, cost[9][2]:912, level_node[9]:422 pow:64, tempcost:27920, cutpoint:8
+now count cost[14][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:32, tempcost:28176, cutpoint:9
+now count cost[14][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:16, tempcost:28864, cutpoint:9
+now count cost[14][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:8, tempcost:31048, cutpoint:9
+now count cost[14][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:4, tempcost:36732, cutpoint:9
+//
+now count cost[15][3], k:2, cost[2][2]:12, level_node[2]:4 pow:16384, tempcost:65548, cutpoint:0
+now count cost[15][3], k:3, cost[3][2]:20, level_node[3]:7 pow:8192, tempcost:57364, cutpoint:2
+now count cost[15][3], k:4, cost[4][2]:36, level_node[4]:14 pow:4096, tempcost:57380, cutpoint:3
+now count cost[15][3], k:5, cost[5][2]:68, level_node[5]:28 pow:2048, tempcost:57412, cutpoint:3
+now count cost[15][3], k:6, cost[6][2]:128, level_node[6]:56 pow:1024, tempcost:57472, cutpoint:3
+now count cost[15][3], k:7, cost[7][2]:240, level_node[7]:112 pow:512, tempcost:57584, cutpoint:3
+now count cost[15][3], k:8, cost[8][2]:464, level_node[8]:215 pow:256, tempcost:55504, cutpoint:3
+now count cost[15][3], k:9, cost[9][2]:912, level_node[9]:422 pow:128, tempcost:54928, cutpoint:8
+now count cost[15][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:64, tempcost:54544, cutpoint:9
+now count cost[15][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:32, tempcost:54128, cutpoint:10
+now count cost[15][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:16, tempcost:54912, cutpoint:11
+now count cost[15][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:8, tempcost:59192, cutpoint:11
+now count cost[15][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:4, tempcost:69760, cutpoint:11
+//
+now count cost[16][3], k:2, cost[2][2]:12, level_node[2]:4 pow:32768, tempcost:131084, cutpoint:0
+now count cost[16][3], k:3, cost[3][2]:20, level_node[3]:7 pow:16384, tempcost:114708, cutpoint:2
+now count cost[16][3], k:4, cost[4][2]:36, level_node[4]:14 pow:8192, tempcost:114724, cutpoint:3
+now count cost[16][3], k:5, cost[5][2]:68, level_node[5]:28 pow:4096, tempcost:114756, cutpoint:3
+now count cost[16][3], k:6, cost[6][2]:128, level_node[6]:56 pow:2048, tempcost:114816, cutpoint:3
+now count cost[16][3], k:7, cost[7][2]:240, level_node[7]:112 pow:1024, tempcost:114928, cutpoint:3
+now count cost[16][3], k:8, cost[8][2]:464, level_node[8]:215 pow:512, tempcost:110544, cutpoint:3
+now count cost[16][3], k:9, cost[9][2]:912, level_node[9]:422 pow:256, tempcost:108944, cutpoint:8
+now count cost[16][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:128, tempcost:107280, cutpoint:9
+now count cost[16][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:64, tempcost:104656, cutpoint:10
+now count cost[16][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:32, tempcost:102640, cutpoint:11
+now count cost[16][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:16, tempcost:104112, cutpoint:12
+now count cost[16][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:8, tempcost:111488, cutpoint:12
+now count cost[16][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:4, tempcost:130852, cutpoint:12
+//
+now count cost[17][3], k:2, cost[2][2]:12, level_node[2]:4 pow:65536, tempcost:262156, cutpoint:0
+now count cost[17][3], k:3, cost[3][2]:20, level_node[3]:7 pow:32768, tempcost:229396, cutpoint:2
+now count cost[17][3], k:4, cost[4][2]:36, level_node[4]:14 pow:16384, tempcost:229412, cutpoint:3
+now count cost[17][3], k:5, cost[5][2]:68, level_node[5]:28 pow:8192, tempcost:229444, cutpoint:3
+now count cost[17][3], k:6, cost[6][2]:128, level_node[6]:56 pow:4096, tempcost:229504, cutpoint:3
+now count cost[17][3], k:7, cost[7][2]:240, level_node[7]:112 pow:2048, tempcost:229616, cutpoint:3
+now count cost[17][3], k:8, cost[8][2]:464, level_node[8]:215 pow:1024, tempcost:220624, cutpoint:3
+now count cost[17][3], k:9, cost[9][2]:912, level_node[9]:422 pow:512, tempcost:216976, cutpoint:8
+now count cost[17][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:256, tempcost:212752, cutpoint:9
+now count cost[17][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:128, tempcost:205712, cutpoint:10
+now count cost[17][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:64, tempcost:198096, cutpoint:11
+now count cost[17][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:32, tempcost:193952, cutpoint:12
+now count cost[17][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:16, tempcost:194944, cutpoint:13
+now count cost[17][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:8, tempcost:207080, cutpoint:13
+now count cost[17][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:4, tempcost:214532, cutpoint:13
+//
+now count cost[18][3], k:2, cost[2][2]:12, level_node[2]:4 pow:131072, tempcost:524300, cutpoint:0
+now count cost[18][3], k:3, cost[3][2]:20, level_node[3]:7 pow:65536, tempcost:458772, cutpoint:2
+now count cost[18][3], k:4, cost[4][2]:36, level_node[4]:14 pow:32768, tempcost:458788, cutpoint:3
+now count cost[18][3], k:5, cost[5][2]:68, level_node[5]:28 pow:16384, tempcost:458820, cutpoint:3
+now count cost[18][3], k:6, cost[6][2]:128, level_node[6]:56 pow:8192, tempcost:458880, cutpoint:3
+now count cost[18][3], k:7, cost[7][2]:240, level_node[7]:112 pow:4096, tempcost:458992, cutpoint:3
+now count cost[18][3], k:8, cost[8][2]:464, level_node[8]:215 pow:2048, tempcost:440784, cutpoint:3
+now count cost[18][3], k:9, cost[9][2]:912, level_node[9]:422 pow:1024, tempcost:433040, cutpoint:8
+now count cost[18][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:512, tempcost:423696, cutpoint:9
+now count cost[18][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:256, tempcost:407824, cutpoint:10
+now count cost[18][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:128, tempcost:389008, cutpoint:11
+now count cost[18][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:64, tempcost:373632, cutpoint:12
+now count cost[18][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:32, tempcost:361856, cutpoint:13
+now count cost[18][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:16, tempcost:359536, cutpoint:14
+now count cost[18][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:8, tempcost:325416, cutpoint:15
+now count cost[18][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:4, tempcost:378192, cutpoint:16
+//
+now count cost[19][3], k:2, cost[2][2]:12, level_node[2]:4 pow:262144, tempcost:1048588, cutpoint:0
+now count cost[19][3], k:3, cost[3][2]:20, level_node[3]:7 pow:131072, tempcost:917524, cutpoint:2
+now count cost[19][3], k:4, cost[4][2]:36, level_node[4]:14 pow:65536, tempcost:917540, cutpoint:3
+now count cost[19][3], k:5, cost[5][2]:68, level_node[5]:28 pow:32768, tempcost:917572, cutpoint:3
+now count cost[19][3], k:6, cost[6][2]:128, level_node[6]:56 pow:16384, tempcost:917632, cutpoint:3
+now count cost[19][3], k:7, cost[7][2]:240, level_node[7]:112 pow:8192, tempcost:917744, cutpoint:3
+now count cost[19][3], k:8, cost[8][2]:464, level_node[8]:215 pow:4096, tempcost:881104, cutpoint:3
+now count cost[19][3], k:9, cost[9][2]:912, level_node[9]:422 pow:2048, tempcost:865168, cutpoint:8
+now count cost[19][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:1024, tempcost:845584, cutpoint:9
+now count cost[19][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:512, tempcost:812048, cutpoint:10
+now count cost[19][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:256, tempcost:770832, cutpoint:11
+now count cost[19][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:128, tempcost:732992, cutpoint:12
+now count cost[19][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:64, tempcost:695680, cutpoint:13
+now count cost[19][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:32, tempcost:664448, cutpoint:14
+now count cost[19][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:16, tempcost:547184, cutpoint:15
+now count cost[19][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:8, tempcost:560320, cutpoint:16
+now count cost[19][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:4, tempcost:646200, cutpoint:16
+//
+now count cost[20][3], k:2, cost[2][2]:12, level_node[2]:4 pow:524288, tempcost:2097164, cutpoint:0
+now count cost[20][3], k:3, cost[3][2]:20, level_node[3]:7 pow:262144, tempcost:1835028, cutpoint:2
+now count cost[20][3], k:4, cost[4][2]:36, level_node[4]:14 pow:131072, tempcost:1835044, cutpoint:3
+now count cost[20][3], k:5, cost[5][2]:68, level_node[5]:28 pow:65536, tempcost:1835076, cutpoint:3
+now count cost[20][3], k:6, cost[6][2]:128, level_node[6]:56 pow:32768, tempcost:1835136, cutpoint:3
+now count cost[20][3], k:7, cost[7][2]:240, level_node[7]:112 pow:16384, tempcost:1835248, cutpoint:3
+now count cost[20][3], k:8, cost[8][2]:464, level_node[8]:215 pow:8192, tempcost:1761744, cutpoint:3
+now count cost[20][3], k:9, cost[9][2]:912, level_node[9]:422 pow:4096, tempcost:1729424, cutpoint:8
+now count cost[20][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:2048, tempcost:1689360, cutpoint:9
+now count cost[20][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:1024, tempcost:1620496, cutpoint:10
+now count cost[20][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:512, tempcost:1534480, cutpoint:11
+now count cost[20][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:256, tempcost:1451712, cutpoint:12
+now count cost[20][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:128, tempcost:1363328, cutpoint:13
+now count cost[20][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:64, tempcost:1274272, cutpoint:14
+now count cost[20][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:32, tempcost:990720, cutpoint:15
+now count cost[20][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:16, tempcost:924576, cutpoint:16
+now count cost[20][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:8, tempcost:939560, cutpoint:17
+now count cost[20][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:4, tempcost:1025660, cutpoint:17
+//
+now count cost[21][3], k:2, cost[2][2]:12, level_node[2]:4 pow:1048576, tempcost:4194316, cutpoint:0
+now count cost[21][3], k:3, cost[3][2]:20, level_node[3]:7 pow:524288, tempcost:3670036, cutpoint:2
+now count cost[21][3], k:4, cost[4][2]:36, level_node[4]:14 pow:262144, tempcost:3670052, cutpoint:3
+now count cost[21][3], k:5, cost[5][2]:68, level_node[5]:28 pow:131072, tempcost:3670084, cutpoint:3
+now count cost[21][3], k:6, cost[6][2]:128, level_node[6]:56 pow:65536, tempcost:3670144, cutpoint:3
+now count cost[21][3], k:7, cost[7][2]:240, level_node[7]:112 pow:32768, tempcost:3670256, cutpoint:3
+now count cost[21][3], k:8, cost[8][2]:464, level_node[8]:215 pow:16384, tempcost:3523024, cutpoint:3
+now count cost[21][3], k:9, cost[9][2]:912, level_node[9]:422 pow:8192, tempcost:3457936, cutpoint:8
+now count cost[21][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:4096, tempcost:3376912, cutpoint:9
+now count cost[21][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:2048, tempcost:3237392, cutpoint:10
+now count cost[21][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:1024, tempcost:3061776, cutpoint:11
+now count cost[21][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:512, tempcost:2889152, cutpoint:12
+now count cost[21][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:256, tempcost:2698624, cutpoint:13
+now count cost[21][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:128, tempcost:2493920, cutpoint:14
+now count cost[21][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:64, tempcost:1877792, cutpoint:15
+now count cost[21][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:32, tempcost:1653088, cutpoint:16
+now count cost[21][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:16, tempcost:1526280, cutpoint:17
+now count cost[21][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:8, tempcost:1476712, cutpoint:18
+now count cost[21][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:4, tempcost:1643464, cutpoint:19
+//
+now count cost[22][3], k:2, cost[2][2]:12, level_node[2]:4 pow:2097152, tempcost:8388620, cutpoint:0
+now count cost[22][3], k:3, cost[3][2]:20, level_node[3]:7 pow:1048576, tempcost:7340052, cutpoint:2
+now count cost[22][3], k:4, cost[4][2]:36, level_node[4]:14 pow:524288, tempcost:7340068, cutpoint:3
+now count cost[22][3], k:5, cost[5][2]:68, level_node[5]:28 pow:262144, tempcost:7340100, cutpoint:3
+now count cost[22][3], k:6, cost[6][2]:128, level_node[6]:56 pow:131072, tempcost:7340160, cutpoint:3
+now count cost[22][3], k:7, cost[7][2]:240, level_node[7]:112 pow:65536, tempcost:7340272, cutpoint:3
+now count cost[22][3], k:8, cost[8][2]:464, level_node[8]:215 pow:32768, tempcost:7045584, cutpoint:3
+now count cost[22][3], k:9, cost[9][2]:912, level_node[9]:422 pow:16384, tempcost:6914960, cutpoint:8
+now count cost[22][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:8192, tempcost:6752016, cutpoint:9
+now count cost[22][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:4096, tempcost:6471184, cutpoint:10
+now count cost[22][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:2048, tempcost:6116368, cutpoint:11
+now count cost[22][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:1024, tempcost:5764032, cutpoint:12
+now count cost[22][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:512, tempcost:5369216, cutpoint:13
+now count cost[22][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:256, tempcost:4933216, cutpoint:14
+now count cost[22][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:128, tempcost:3651936, cutpoint:15
+now count cost[22][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:64, tempcost:3110112, cutpoint:16
+now count cost[22][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:32, tempcost:2699720, cutpoint:17
+now count cost[22][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:16, tempcost:2378816, cutpoint:18
+now count cost[22][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:8, tempcost:2296272, cutpoint:19
+now count cost[22][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:4, tempcost:2628884, cutpoint:20
+//
+now count cost[23][3], k:2, cost[2][2]:12, level_node[2]:4 pow:4194304, tempcost:16777228, cutpoint:0
+now count cost[23][3], k:3, cost[3][2]:20, level_node[3]:7 pow:2097152, tempcost:14680084, cutpoint:2
+now count cost[23][3], k:4, cost[4][2]:36, level_node[4]:14 pow:1048576, tempcost:14680100, cutpoint:3
+now count cost[23][3], k:5, cost[5][2]:68, level_node[5]:28 pow:524288, tempcost:14680132, cutpoint:3
+now count cost[23][3], k:6, cost[6][2]:128, level_node[6]:56 pow:262144, tempcost:14680192, cutpoint:3
+now count cost[23][3], k:7, cost[7][2]:240, level_node[7]:112 pow:131072, tempcost:14680304, cutpoint:3
+now count cost[23][3], k:8, cost[8][2]:464, level_node[8]:215 pow:65536, tempcost:14090704, cutpoint:3
+now count cost[23][3], k:9, cost[9][2]:912, level_node[9]:422 pow:32768, tempcost:13829008, cutpoint:8
+now count cost[23][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:16384, tempcost:13502224, cutpoint:9
+now count cost[23][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:8192, tempcost:12938768, cutpoint:10
+now count cost[23][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:4096, tempcost:12225552, cutpoint:11
+now count cost[23][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:2048, tempcost:11513792, cutpoint:12
+now count cost[23][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:1024, tempcost:10710400, cutpoint:13
+now count cost[23][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:512, tempcost:9811808, cutpoint:14
+now count cost[23][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:256, tempcost:7200224, cutpoint:15
+now count cost[23][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:128, tempcost:6024160, cutpoint:16
+now count cost[23][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:64, tempcost:5046600, cutpoint:17
+now count cost[23][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:32, tempcost:4183024, cutpoint:18
+now count cost[23][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:16, tempcost:3601888, cutpoint:19
+now count cost[23][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:8, tempcost:3560040, cutpoint:20
+now count cost[23][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:4, tempcost:4023924, cutpoint:21
+//
+now count cost[24][3], k:2, cost[2][2]:12, level_node[2]:4 pow:8388608, tempcost:33554444, cutpoint:0
+now count cost[24][3], k:3, cost[3][2]:20, level_node[3]:7 pow:4194304, tempcost:29360148, cutpoint:2
+now count cost[24][3], k:4, cost[4][2]:36, level_node[4]:14 pow:2097152, tempcost:29360164, cutpoint:3
+now count cost[24][3], k:5, cost[5][2]:68, level_node[5]:28 pow:1048576, tempcost:29360196, cutpoint:3
+now count cost[24][3], k:6, cost[6][2]:128, level_node[6]:56 pow:524288, tempcost:29360256, cutpoint:3
+now count cost[24][3], k:7, cost[7][2]:240, level_node[7]:112 pow:262144, tempcost:29360368, cutpoint:3
+now count cost[24][3], k:8, cost[8][2]:464, level_node[8]:215 pow:131072, tempcost:28180944, cutpoint:3
+now count cost[24][3], k:9, cost[9][2]:912, level_node[9]:422 pow:65536, tempcost:27657104, cutpoint:8
+now count cost[24][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:32768, tempcost:27002640, cutpoint:9
+now count cost[24][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:16384, tempcost:25873936, cutpoint:10
+now count cost[24][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:8192, tempcost:24443920, cutpoint:11
+now count cost[24][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:4096, tempcost:23013312, cutpoint:12
+now count cost[24][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:2048, tempcost:21392768, cutpoint:13
+now count cost[24][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:1024, tempcost:19568992, cutpoint:14
+now count cost[24][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:512, tempcost:14296800, cutpoint:15
+now count cost[24][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:256, tempcost:11852256, cutpoint:16
+now count cost[24][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:128, tempcost:9740360, cutpoint:17
+now count cost[24][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:64, tempcost:7791440, cutpoint:18
+now count cost[24][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:32, tempcost:6213120, cutpoint:19
+now count cost[24][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:16, tempcost:5422352, cutpoint:20
+now count cost[24][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:8, tempcost:5195064, cutpoint:21
+now count cost[24][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:4, tempcost:6223024, cutpoint:22
+//
+now count cost[25][3], k:2, cost[2][2]:12, level_node[2]:4 pow:16777216, tempcost:67108876, cutpoint:0
+now count cost[25][3], k:3, cost[3][2]:20, level_node[3]:7 pow:8388608, tempcost:58720276, cutpoint:2
+now count cost[25][3], k:4, cost[4][2]:36, level_node[4]:14 pow:4194304, tempcost:58720292, cutpoint:3
+now count cost[25][3], k:5, cost[5][2]:68, level_node[5]:28 pow:2097152, tempcost:58720324, cutpoint:3
+now count cost[25][3], k:6, cost[6][2]:128, level_node[6]:56 pow:1048576, tempcost:58720384, cutpoint:3
+now count cost[25][3], k:7, cost[7][2]:240, level_node[7]:112 pow:524288, tempcost:58720496, cutpoint:3
+now count cost[25][3], k:8, cost[8][2]:464, level_node[8]:215 pow:262144, tempcost:56361424, cutpoint:3
+now count cost[25][3], k:9, cost[9][2]:912, level_node[9]:422 pow:131072, tempcost:55313296, cutpoint:8
+now count cost[25][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:65536, tempcost:54003472, cutpoint:9
+now count cost[25][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:32768, tempcost:51744272, cutpoint:10
+now count cost[25][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:16384, tempcost:48880656, cutpoint:11
+now count cost[25][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:8192, tempcost:46012352, cutpoint:12
+now count cost[25][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:4096, tempcost:42757504, cutpoint:13
+now count cost[25][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:2048, tempcost:39083360, cutpoint:14
+now count cost[25][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:1024, tempcost:28489952, cutpoint:15
+now count cost[25][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:512, tempcost:23508448, cutpoint:16
+now count cost[25][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:256, tempcost:19127880, cutpoint:17
+now count cost[25][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:128, tempcost:15008272, cutpoint:18
+now count cost[25][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:64, tempcost:11435584, cutpoint:19
+now count cost[25][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:32, tempcost:9146976, cutpoint:20
+now count cost[25][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:16, tempcost:7537344, cutpoint:21
+now count cost[25][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:8, tempcost:7789056, cutpoint:22
+now count cost[25][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:4, tempcost:7355324, cutpoint:22
+//
+now count cost[26][3], k:2, cost[2][2]:12, level_node[2]:4 pow:33554432, tempcost:134217740, cutpoint:0
+now count cost[26][3], k:3, cost[3][2]:20, level_node[3]:7 pow:16777216, tempcost:117440532, cutpoint:2
+now count cost[26][3], k:4, cost[4][2]:36, level_node[4]:14 pow:8388608, tempcost:117440548, cutpoint:3
+now count cost[26][3], k:5, cost[5][2]:68, level_node[5]:28 pow:4194304, tempcost:117440580, cutpoint:3
+now count cost[26][3], k:6, cost[6][2]:128, level_node[6]:56 pow:2097152, tempcost:117440640, cutpoint:3
+now count cost[26][3], k:7, cost[7][2]:240, level_node[7]:112 pow:1048576, tempcost:117440752, cutpoint:3
+now count cost[26][3], k:8, cost[8][2]:464, level_node[8]:215 pow:524288, tempcost:112722384, cutpoint:3
+now count cost[26][3], k:9, cost[9][2]:912, level_node[9]:422 pow:262144, tempcost:110625680, cutpoint:8
+now count cost[26][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:131072, tempcost:108005136, cutpoint:9
+now count cost[26][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:65536, tempcost:103484944, cutpoint:10
+now count cost[26][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:32768, tempcost:97754128, cutpoint:11
+now count cost[26][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:16384, tempcost:92010432, cutpoint:12
+now count cost[26][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:8192, tempcost:85486976, cutpoint:13
+now count cost[26][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:4096, tempcost:78112096, cutpoint:14
+now count cost[26][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:2048, tempcost:56876256, cutpoint:15
+now count cost[26][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:1024, tempcost:46820832, cutpoint:16
+now count cost[26][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:512, tempcost:37902920, cutpoint:17
+now count cost[26][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:256, tempcost:29441936, cutpoint:18
+now count cost[26][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:128, tempcost:21880512, cutpoint:19
+now count cost[26][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:64, tempcost:16596224, cutpoint:20
+now count cost[26][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:32, tempcost:12221904, cutpoint:21
+now count cost[26][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:16, tempcost:10921120, cutpoint:22
+now count cost[26][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:8, tempcost:7391032, cutpoint:23
+now count cost[26][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:4, tempcost:11680448, cutpoint:24
+//
+now count cost[27][3], k:2, cost[2][2]:12, level_node[2]:4 pow:67108864, tempcost:268435468, cutpoint:0
+now count cost[27][3], k:3, cost[3][2]:20, level_node[3]:7 pow:33554432, tempcost:234881044, cutpoint:2
+now count cost[27][3], k:4, cost[4][2]:36, level_node[4]:14 pow:16777216, tempcost:234881060, cutpoint:3
+now count cost[27][3], k:5, cost[5][2]:68, level_node[5]:28 pow:8388608, tempcost:234881092, cutpoint:3
+now count cost[27][3], k:6, cost[6][2]:128, level_node[6]:56 pow:4194304, tempcost:234881152, cutpoint:3
+now count cost[27][3], k:7, cost[7][2]:240, level_node[7]:112 pow:2097152, tempcost:234881264, cutpoint:3
+now count cost[27][3], k:8, cost[8][2]:464, level_node[8]:215 pow:1048576, tempcost:225444304, cutpoint:3
+now count cost[27][3], k:9, cost[9][2]:912, level_node[9]:422 pow:524288, tempcost:221250448, cutpoint:8
+now count cost[27][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:262144, tempcost:216008464, cutpoint:9
+now count cost[27][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:131072, tempcost:206966288, cutpoint:10
+now count cost[27][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:65536, tempcost:195501072, cutpoint:11
+now count cost[27][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:32768, tempcost:184006592, cutpoint:12
+now count cost[27][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:16384, tempcost:170945920, cutpoint:13
+now count cost[27][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:8192, tempcost:156169568, cutpoint:14
+now count cost[27][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:4096, tempcost:113648864, cutpoint:15
+now count cost[27][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:2048, tempcost:93445600, cutpoint:16
+now count cost[27][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:1024, tempcost:75453000, cutpoint:17
+now count cost[27][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:512, tempcost:58309264, cutpoint:18
+now count cost[27][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:256, tempcost:42770368, cutpoint:19
+now count cost[27][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:128, tempcost:31494720, cutpoint:20
+now count cost[27][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:64, tempcost:21591024, cutpoint:21
+now count cost[27][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:32, tempcost:17185248, cutpoint:22
+now count cost[27][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:16, tempcost:7462448, cutpoint:23
+now count cost[27][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:8, tempcost:11717344, cutpoint:24
+now count cost[27][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:4, tempcost:17795384, cutpoint:24
+//
+now count cost[28][3], k:2, cost[2][2]:12, level_node[2]:4 pow:134217728, tempcost:536870924, cutpoint:0
+now count cost[28][3], k:3, cost[3][2]:20, level_node[3]:7 pow:67108864, tempcost:469762068, cutpoint:2
+now count cost[28][3], k:4, cost[4][2]:36, level_node[4]:14 pow:33554432, tempcost:469762084, cutpoint:3
+now count cost[28][3], k:5, cost[5][2]:68, level_node[5]:28 pow:16777216, tempcost:469762116, cutpoint:3
+now count cost[28][3], k:6, cost[6][2]:128, level_node[6]:56 pow:8388608, tempcost:469762176, cutpoint:3
+now count cost[28][3], k:7, cost[7][2]:240, level_node[7]:112 pow:4194304, tempcost:469762288, cutpoint:3
+now count cost[28][3], k:8, cost[8][2]:464, level_node[8]:215 pow:2097152, tempcost:450888144, cutpoint:3
+now count cost[28][3], k:9, cost[9][2]:912, level_node[9]:422 pow:1048576, tempcost:442499984, cutpoint:8
+now count cost[28][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:524288, tempcost:432015120, cutpoint:9
+now count cost[28][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:262144, tempcost:413928976, cutpoint:10
+now count cost[28][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:131072, tempcost:390994960, cutpoint:11
+now count cost[28][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:65536, tempcost:367998912, cutpoint:12
+now count cost[28][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:32768, tempcost:341863808, cutpoint:13
+now count cost[28][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:16384, tempcost:312284512, cutpoint:14
+now count cost[28][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:8192, tempcost:227194080, cutpoint:15
+now count cost[28][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:4096, tempcost:186695136, cutpoint:16
+now count cost[28][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:2048, tempcost:150553160, cutpoint:17
+now count cost[28][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:1024, tempcost:116043920, cutpoint:18
+now count cost[28][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:512, tempcost:84550080, cutpoint:19
+now count cost[28][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:256, tempcost:61291712, cutpoint:20
+now count cost[28][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:128, tempcost:40329264, cutpoint:21
+now count cost[28][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:64, tempcost:29713504, cutpoint:22
+now count cost[28][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:32, tempcost:7605280, cutpoint:23
+now count cost[28][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:16, tempcost:11791136, cutpoint:24
+now count cost[28][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:8, tempcost:17833040, cutpoint:24
+now count cost[28][3], k:27, cost[27][2]:27126848, level_node[27]:10053 pow:4, tempcost:27167060, cutpoint:24
+//
+now count cost[29][3], k:2, cost[2][2]:12, level_node[2]:4 pow:268435456, tempcost:1073741836, cutpoint:0
+now count cost[29][3], k:3, cost[3][2]:20, level_node[3]:7 pow:134217728, tempcost:939524116, cutpoint:2
+now count cost[29][3], k:4, cost[4][2]:36, level_node[4]:14 pow:67108864, tempcost:939524132, cutpoint:3
+now count cost[29][3], k:5, cost[5][2]:68, level_node[5]:28 pow:33554432, tempcost:939524164, cutpoint:3
+now count cost[29][3], k:6, cost[6][2]:128, level_node[6]:56 pow:16777216, tempcost:939524224, cutpoint:3
+now count cost[29][3], k:7, cost[7][2]:240, level_node[7]:112 pow:8388608, tempcost:939524336, cutpoint:3
+now count cost[29][3], k:8, cost[8][2]:464, level_node[8]:215 pow:4194304, tempcost:901775824, cutpoint:3
+now count cost[29][3], k:9, cost[9][2]:912, level_node[9]:422 pow:2097152, tempcost:884999056, cutpoint:8
+now count cost[29][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:1048576, tempcost:864028432, cutpoint:9
+now count cost[29][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:524288, tempcost:827854352, cutpoint:10
+now count cost[29][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:262144, tempcost:781982736, cutpoint:11
+now count cost[29][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:131072, tempcost:735983552, cutpoint:12
+now count cost[29][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:65536, tempcost:683699584, cutpoint:13
+now count cost[29][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:32768, tempcost:624514400, cutpoint:14
+now count cost[29][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:16384, tempcost:454284512, cutpoint:15
+now count cost[29][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:8192, tempcost:373194208, cutpoint:16
+now count cost[29][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:4096, tempcost:300753480, cutpoint:17
+now count cost[29][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:2048, tempcost:231513232, cutpoint:18
+now count cost[29][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:1024, tempcost:168109504, cutpoint:19
+now count cost[29][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:512, tempcost:120885696, cutpoint:20
+now count cost[29][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:256, tempcost:77805744, cutpoint:21
+now count cost[29][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:128, tempcost:54770016, cutpoint:22
+now count cost[29][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:64, tempcost:7890944, cutpoint:23
+now count cost[29][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:32, tempcost:11938720, cutpoint:24
+now count cost[29][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:16, tempcost:17908352, cutpoint:24
+now count cost[29][3], k:27, cost[27][2]:27126848, level_node[27]:10053 pow:8, tempcost:27207272, cutpoint:24
+now count cost[29][3], k:28, cost[28][2]:33840096, level_node[28]:10985 pow:4, tempcost:33884036, cutpoint:24
+//
+now count cost[30][3], k:2, cost[2][2]:12, level_node[2]:4 pow:536870912, tempcost:2147483660, cutpoint:0
+now count cost[30][3], k:3, cost[3][2]:20, level_node[3]:7 pow:268435456, tempcost:1879048212, cutpoint:2
+now count cost[30][3], k:4, cost[4][2]:36, level_node[4]:14 pow:134217728, tempcost:1879048228, cutpoint:3
+now count cost[30][3], k:5, cost[5][2]:68, level_node[5]:28 pow:67108864, tempcost:1879048260, cutpoint:3
+now count cost[30][3], k:6, cost[6][2]:128, level_node[6]:56 pow:33554432, tempcost:1879048320, cutpoint:3
+now count cost[30][3], k:7, cost[7][2]:240, level_node[7]:112 pow:16777216, tempcost:1879048432, cutpoint:3
+now count cost[30][3], k:8, cost[8][2]:464, level_node[8]:215 pow:8388608, tempcost:1803551184, cutpoint:3
+now count cost[30][3], k:9, cost[9][2]:912, level_node[9]:422 pow:4194304, tempcost:1769997200, cutpoint:8
+now count cost[30][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:2097152, tempcost:1728055056, cutpoint:9
+now count cost[30][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:1048576, tempcost:1655705104, cutpoint:10
+now count cost[30][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:524288, tempcost:1563958288, cutpoint:11
+now count cost[30][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:262144, tempcost:1471952832, cutpoint:12
+now count cost[30][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:131072, tempcost:1367371136, cutpoint:13
+now count cost[30][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:65536, tempcost:1248974176, cutpoint:14
+now count cost[30][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:32768, tempcost:908465376, cutpoint:15
+now count cost[30][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:16384, tempcost:746192352, cutpoint:16
+now count cost[30][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:8192, tempcost:601154120, cutpoint:17
+now count cost[30][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:4096, tempcost:462451856, cutpoint:18
+now count cost[30][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:2048, tempcost:335228352, cutpoint:19
+now count cost[30][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:1024, tempcost:240073664, cutpoint:20
+now count cost[30][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:512, tempcost:152758704, cutpoint:21
+now count cost[30][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:256, tempcost:104883040, cutpoint:22
+now count cost[30][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:128, tempcost:8462272, cutpoint:23
+now count cost[30][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:64, tempcost:12233888, cutpoint:24
+now count cost[30][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:32, tempcost:18058976, cutpoint:24
+now count cost[30][3], k:27, cost[27][2]:27126848, level_node[27]:10053 pow:16, tempcost:27287696, cutpoint:24
+now count cost[30][3], k:28, cost[28][2]:33840096, level_node[28]:10985 pow:8, tempcost:33927976, cutpoint:24
+now count cost[30][3], k:29, cost[29][2]:34125760, level_node[29]:10193 pow:4, tempcost:34166532, cutpoint:24
+//
+now count cost[31][3], k:2, cost[2][2]:12, level_node[2]:4 pow:1073741824, tempcost:4294967308, cutpoint:0
+now count cost[31][3], k:3, cost[3][2]:20, level_node[3]:7 pow:536870912, tempcost:3758096404, cutpoint:2
+now count cost[31][3], k:4, cost[4][2]:36, level_node[4]:14 pow:268435456, tempcost:3758096420, cutpoint:3
+now count cost[31][3], k:5, cost[5][2]:68, level_node[5]:28 pow:134217728, tempcost:3758096452, cutpoint:3
+now count cost[31][3], k:6, cost[6][2]:128, level_node[6]:56 pow:67108864, tempcost:3758096512, cutpoint:3
+now count cost[31][3], k:7, cost[7][2]:240, level_node[7]:112 pow:33554432, tempcost:3758096624, cutpoint:3
+now count cost[31][3], k:8, cost[8][2]:464, level_node[8]:215 pow:16777216, tempcost:3607101904, cutpoint:3
+now count cost[31][3], k:9, cost[9][2]:912, level_node[9]:422 pow:8388608, tempcost:3539993488, cutpoint:8
+now count cost[31][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:4194304, tempcost:3456108304, cutpoint:9
+now count cost[31][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:2097152, tempcost:3311406608, cutpoint:10
+now count cost[31][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:1048576, tempcost:3127909392, cutpoint:11
+now count cost[31][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:524288, tempcost:2943891392, cutpoint:12
+now count cost[31][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:262144, tempcost:2734714240, cutpoint:13
+now count cost[31][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:131072, tempcost:2497893728, cutpoint:14
+now count cost[31][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:65536, tempcost:1816827104, cutpoint:15
+now count cost[31][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:32768, tempcost:1492188640, cutpoint:16
+now count cost[31][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:16384, tempcost:1201955400, cutpoint:17
+now count cost[31][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:8192, tempcost:924329104, cutpoint:18
+now count cost[31][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:4096, tempcost:669466048, cutpoint:19
+now count cost[31][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:2048, tempcost:478449600, cutpoint:20
+now count cost[31][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:1024, tempcost:302664624, cutpoint:21
+now count cost[31][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:512, tempcost:205109088, cutpoint:22
+now count cost[31][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:256, tempcost:9604928, cutpoint:23
+now count cost[31][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:128, tempcost:12824224, cutpoint:24
+now count cost[31][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:64, tempcost:18360224, cutpoint:24
+now count cost[31][3], k:27, cost[27][2]:27126848, level_node[27]:10053 pow:32, tempcost:27448544, cutpoint:24
+now count cost[31][3], k:28, cost[28][2]:33840096, level_node[28]:10985 pow:16, tempcost:34015856, cutpoint:24
+now count cost[31][3], k:29, cost[29][2]:34125760, level_node[29]:10193 pow:8, tempcost:34207304, cutpoint:24
+now count cost[31][3], k:30, cost[30][2]:34697088, level_node[30]:9854 pow:4, tempcost:34736504, cutpoint:24
+//
+now count cost[32][3], k:2, cost[2][2]:12, level_node[2]:4 pow:-2147483648, tempcost:-8589934580, cutpoint:0
+now count cost[32][3], k:3, cost[3][2]:20, level_node[3]:7 pow:1073741824, tempcost:7516192788, cutpoint:2
+now count cost[32][3], k:4, cost[4][2]:36, level_node[4]:14 pow:536870912, tempcost:7516192804, cutpoint:3
+now count cost[32][3], k:5, cost[5][2]:68, level_node[5]:28 pow:268435456, tempcost:7516192836, cutpoint:3
+now count cost[32][3], k:6, cost[6][2]:128, level_node[6]:56 pow:134217728, tempcost:7516192896, cutpoint:3
+now count cost[32][3], k:7, cost[7][2]:240, level_node[7]:112 pow:67108864, tempcost:7516193008, cutpoint:3
+now count cost[32][3], k:8, cost[8][2]:464, level_node[8]:215 pow:33554432, tempcost:7214203344, cutpoint:3
+now count cost[32][3], k:9, cost[9][2]:912, level_node[9]:422 pow:16777216, tempcost:7079986064, cutpoint:8
+now count cost[32][3], k:10, cost[10][2]:1808, level_node[10]:824 pow:8388608, tempcost:6912214800, cutpoint:9
+now count cost[32][3], k:11, cost[11][2]:3600, level_node[11]:1579 pow:4194304, tempcost:6622809616, cutpoint:10
+now count cost[32][3], k:12, cost[12][2]:7184, level_node[12]:2983 pow:2097152, tempcost:6255811600, cutpoint:11
+now count cost[32][3], k:13, cost[13][2]:14272, level_node[13]:5615 pow:1048576, tempcost:5887768512, cutpoint:12
+now count cost[32][3], k:14, cost[14][2]:28032, level_node[14]:10432 pow:524288, tempcost:5469400448, cutpoint:13
+now count cost[32][3], k:15, cost[15][2]:54624, level_node[15]:19057 pow:262144, tempcost:4995732832, cutpoint:14
+now count cost[32][3], k:16, cost[16][2]:103648, level_node[16]:27721 pow:131072, tempcost:3633550560, cutpoint:15
+now count cost[32][3], k:17, cost[17][2]:196064, level_node[17]:45532 pow:65536, tempcost:2984181216, cutpoint:16
+now count cost[32][3], k:18, cost[18][2]:352840, level_node[18]:73340 pow:32768, tempcost:2403557960, cutpoint:17
+now count cost[32][3], k:19, cost[19][2]:574608, level_node[19]:112763 pow:16384, tempcost:1848083600, cutpoint:18
+now count cost[32][3], k:20, cost[20][2]:990656, level_node[20]:163202 pow:8192, tempcost:1337941440, cutpoint:19
+now count cost[32][3], k:21, cost[21][2]:1697728, level_node[21]:232789 pow:4096, tempcost:955201472, cutpoint:20
+now count cost[32][3], k:22, cost[22][2]:2852784, level_node[22]:292785 pow:2048, tempcost:602476464, cutpoint:21
+now count cost[32][3], k:23, cost[23][2]:4656992, level_node[23]:391508 pow:1024, tempcost:405561184, cutpoint:22
+now count cost[32][3], k:24, cost[24][2]:7319616, level_node[24]:8927 pow:512, tempcost:11890240, cutpoint:23
+now count cost[32][3], k:25, cost[25][2]:11643552, level_node[25]:9224 pow:256, tempcost:14004896, cutpoint:24
+now count cost[32][3], k:26, cost[26][2]:17757728, level_node[26]:9414 pow:128, tempcost:18962720, cutpoint:24
+now count cost[32][3], k:27, cost[27][2]:27126848, level_node[27]:10053 pow:64, tempcost:27770240, cutpoint:24
+now count cost[32][3], k:28, cost[28][2]:33840096, level_node[28]:10985 pow:32, tempcost:34191616, cutpoint:24
+now count cost[32][3], k:29, cost[29][2]:34125760, level_node[29]:10193 pow:16, tempcost:34288848, cutpoint:24
+now count cost[32][3], k:30, cost[30][2]:34697088, level_node[30]:9854 pow:8, tempcost:34775920, cutpoint:24
+now count cost[32][3], k:31, cost[31][2]:35839744, level_node[31]:13201 pow:4, tempcost:35892548, cutpoint:24
+//
+//
+//
+//
+now count cost[4][4], k:3, cost[3][3]:28, level_node[3]:7 pow:4, tempcost:56, cutpoint:0
+//
+now count cost[5][4], k:3, cost[3][3]:28, level_node[3]:7 pow:8, tempcost:84, cutpoint:0
+now count cost[5][4], k:4, cost[4][3]:44, level_node[4]:14 pow:4, tempcost:100, cutpoint:3
+//
+now count cost[6][4], k:3, cost[3][3]:28, level_node[3]:7 pow:16, tempcost:140, cutpoint:0
+now count cost[6][4], k:4, cost[4][3]:44, level_node[4]:14 pow:8, tempcost:156, cutpoint:3
+now count cost[6][4], k:5, cost[5][3]:76, level_node[5]:28 pow:4, tempcost:188, cutpoint:3
+//
+now count cost[7][4], k:3, cost[3][3]:28, level_node[3]:7 pow:32, tempcost:252, cutpoint:0
+now count cost[7][4], k:4, cost[4][3]:44, level_node[4]:14 pow:16, tempcost:268, cutpoint:3
+now count cost[7][4], k:5, cost[5][3]:76, level_node[5]:28 pow:8, tempcost:300, cutpoint:3
+now count cost[7][4], k:6, cost[6][3]:132, level_node[6]:56 pow:4, tempcost:356, cutpoint:3
+//
+now count cost[8][4], k:3, cost[3][3]:28, level_node[3]:7 pow:64, tempcost:476, cutpoint:0
+now count cost[8][4], k:4, cost[4][3]:44, level_node[4]:14 pow:32, tempcost:492, cutpoint:3
+now count cost[8][4], k:5, cost[5][3]:76, level_node[5]:28 pow:16, tempcost:524, cutpoint:3
+now count cost[8][4], k:6, cost[6][3]:132, level_node[6]:56 pow:8, tempcost:580, cutpoint:3
+now count cost[8][4], k:7, cost[7][3]:244, level_node[7]:112 pow:4, tempcost:692, cutpoint:3
+//
+now count cost[9][4], k:3, cost[3][3]:28, level_node[3]:7 pow:128, tempcost:924, cutpoint:0
+now count cost[9][4], k:4, cost[4][3]:44, level_node[4]:14 pow:64, tempcost:940, cutpoint:3
+now count cost[9][4], k:5, cost[5][3]:76, level_node[5]:28 pow:32, tempcost:972, cutpoint:3
+now count cost[9][4], k:6, cost[6][3]:132, level_node[6]:56 pow:16, tempcost:1028, cutpoint:3
+now count cost[9][4], k:7, cost[7][3]:244, level_node[7]:112 pow:8, tempcost:1140, cutpoint:3
+now count cost[9][4], k:8, cost[8][3]:468, level_node[8]:215 pow:4, tempcost:1328, cutpoint:3
+//
+now count cost[10][4], k:3, cost[3][3]:28, level_node[3]:7 pow:256, tempcost:1820, cutpoint:0
+now count cost[10][4], k:4, cost[4][3]:44, level_node[4]:14 pow:128, tempcost:1836, cutpoint:3
+now count cost[10][4], k:5, cost[5][3]:76, level_node[5]:28 pow:64, tempcost:1868, cutpoint:3
+now count cost[10][4], k:6, cost[6][3]:132, level_node[6]:56 pow:32, tempcost:1924, cutpoint:3
+now count cost[10][4], k:7, cost[7][3]:244, level_node[7]:112 pow:16, tempcost:2036, cutpoint:3
+now count cost[10][4], k:8, cost[8][3]:468, level_node[8]:215 pow:8, tempcost:2188, cutpoint:3
+now count cost[10][4], k:9, cost[9][3]:916, level_node[9]:422 pow:4, tempcost:2604, cutpoint:3
+//
+now count cost[11][4], k:3, cost[3][3]:28, level_node[3]:7 pow:512, tempcost:3612, cutpoint:0
+now count cost[11][4], k:4, cost[4][3]:44, level_node[4]:14 pow:256, tempcost:3628, cutpoint:3
+now count cost[11][4], k:5, cost[5][3]:76, level_node[5]:28 pow:128, tempcost:3660, cutpoint:3
+now count cost[11][4], k:6, cost[6][3]:132, level_node[6]:56 pow:64, tempcost:3716, cutpoint:3
+now count cost[11][4], k:7, cost[7][3]:244, level_node[7]:112 pow:32, tempcost:3828, cutpoint:3
+now count cost[11][4], k:8, cost[8][3]:468, level_node[8]:215 pow:16, tempcost:3908, cutpoint:3
+now count cost[11][4], k:9, cost[9][3]:916, level_node[9]:422 pow:8, tempcost:4292, cutpoint:3
+now count cost[11][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:4, tempcost:5108, cutpoint:3
+//
+now count cost[12][4], k:3, cost[3][3]:28, level_node[3]:7 pow:1024, tempcost:7196, cutpoint:0
+now count cost[12][4], k:4, cost[4][3]:44, level_node[4]:14 pow:512, tempcost:7212, cutpoint:3
+now count cost[12][4], k:5, cost[5][3]:76, level_node[5]:28 pow:256, tempcost:7244, cutpoint:3
+now count cost[12][4], k:6, cost[6][3]:132, level_node[6]:56 pow:128, tempcost:7300, cutpoint:3
+now count cost[12][4], k:7, cost[7][3]:244, level_node[7]:112 pow:64, tempcost:7412, cutpoint:3
+now count cost[12][4], k:8, cost[8][3]:468, level_node[8]:215 pow:32, tempcost:7348, cutpoint:3
+now count cost[12][4], k:9, cost[9][3]:916, level_node[9]:422 pow:16, tempcost:7668, cutpoint:3
+now count cost[12][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:8, tempcost:8404, cutpoint:3
+now count cost[12][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:4, tempcost:9920, cutpoint:3
+//
+now count cost[13][4], k:3, cost[3][3]:28, level_node[3]:7 pow:2048, tempcost:14364, cutpoint:0
+now count cost[13][4], k:4, cost[4][3]:44, level_node[4]:14 pow:1024, tempcost:14380, cutpoint:3
+now count cost[13][4], k:5, cost[5][3]:76, level_node[5]:28 pow:512, tempcost:14412, cutpoint:3
+now count cost[13][4], k:6, cost[6][3]:132, level_node[6]:56 pow:256, tempcost:14468, cutpoint:3
+now count cost[13][4], k:7, cost[7][3]:244, level_node[7]:112 pow:128, tempcost:14580, cutpoint:3
+now count cost[13][4], k:8, cost[8][3]:468, level_node[8]:215 pow:64, tempcost:14228, cutpoint:3
+now count cost[13][4], k:9, cost[9][3]:916, level_node[9]:422 pow:32, tempcost:14420, cutpoint:8
+now count cost[13][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:16, tempcost:14996, cutpoint:8
+now count cost[13][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:8, tempcost:16236, cutpoint:8
+now count cost[13][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:4, tempcost:19120, cutpoint:8
+//
+now count cost[14][4], k:3, cost[3][3]:28, level_node[3]:7 pow:4096, tempcost:28700, cutpoint:0
+now count cost[14][4], k:4, cost[4][3]:44, level_node[4]:14 pow:2048, tempcost:28716, cutpoint:3
+now count cost[14][4], k:5, cost[5][3]:76, level_node[5]:28 pow:1024, tempcost:28748, cutpoint:3
+now count cost[14][4], k:6, cost[6][3]:132, level_node[6]:56 pow:512, tempcost:28804, cutpoint:3
+now count cost[14][4], k:7, cost[7][3]:244, level_node[7]:112 pow:256, tempcost:28916, cutpoint:3
+now count cost[14][4], k:8, cost[8][3]:468, level_node[8]:215 pow:128, tempcost:27988, cutpoint:3
+now count cost[14][4], k:9, cost[9][3]:916, level_node[9]:422 pow:64, tempcost:27924, cutpoint:8
+now count cost[14][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:32, tempcost:28180, cutpoint:9
+now count cost[14][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:16, tempcost:28868, cutpoint:9
+now count cost[14][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:8, tempcost:31052, cutpoint:9
+now count cost[14][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:4, tempcost:36684, cutpoint:9
+//
+now count cost[15][4], k:3, cost[3][3]:28, level_node[3]:7 pow:8192, tempcost:57372, cutpoint:0
+now count cost[15][4], k:4, cost[4][3]:44, level_node[4]:14 pow:4096, tempcost:57388, cutpoint:3
+now count cost[15][4], k:5, cost[5][3]:76, level_node[5]:28 pow:2048, tempcost:57420, cutpoint:3
+now count cost[15][4], k:6, cost[6][3]:132, level_node[6]:56 pow:1024, tempcost:57476, cutpoint:3
+now count cost[15][4], k:7, cost[7][3]:244, level_node[7]:112 pow:512, tempcost:57588, cutpoint:3
+now count cost[15][4], k:8, cost[8][3]:468, level_node[8]:215 pow:256, tempcost:55508, cutpoint:3
+now count cost[15][4], k:9, cost[9][3]:916, level_node[9]:422 pow:128, tempcost:54932, cutpoint:8
+now count cost[15][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:64, tempcost:54548, cutpoint:9
+now count cost[15][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:32, tempcost:54132, cutpoint:10
+now count cost[15][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:16, tempcost:54916, cutpoint:11
+now count cost[15][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:8, tempcost:59144, cutpoint:11
+now count cost[15][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:4, tempcost:69648, cutpoint:11
+//
+now count cost[16][4], k:3, cost[3][3]:28, level_node[3]:7 pow:16384, tempcost:114716, cutpoint:0
+now count cost[16][4], k:4, cost[4][3]:44, level_node[4]:14 pow:8192, tempcost:114732, cutpoint:3
+now count cost[16][4], k:5, cost[5][3]:76, level_node[5]:28 pow:4096, tempcost:114764, cutpoint:3
+now count cost[16][4], k:6, cost[6][3]:132, level_node[6]:56 pow:2048, tempcost:114820, cutpoint:3
+now count cost[16][4], k:7, cost[7][3]:244, level_node[7]:112 pow:1024, tempcost:114932, cutpoint:3
+now count cost[16][4], k:8, cost[8][3]:468, level_node[8]:215 pow:512, tempcost:110548, cutpoint:3
+now count cost[16][4], k:9, cost[9][3]:916, level_node[9]:422 pow:256, tempcost:108948, cutpoint:8
+now count cost[16][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:128, tempcost:107284, cutpoint:9
+now count cost[16][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:64, tempcost:104660, cutpoint:10
+now count cost[16][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:32, tempcost:102644, cutpoint:11
+now count cost[16][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:16, tempcost:104064, cutpoint:12
+now count cost[16][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:8, tempcost:111376, cutpoint:12
+now count cost[16][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:4, tempcost:130356, cutpoint:12
+//
+now count cost[17][4], k:3, cost[3][3]:28, level_node[3]:7 pow:32768, tempcost:229404, cutpoint:0
+now count cost[17][4], k:4, cost[4][3]:44, level_node[4]:14 pow:16384, tempcost:229420, cutpoint:3
+now count cost[17][4], k:5, cost[5][3]:76, level_node[5]:28 pow:8192, tempcost:229452, cutpoint:3
+now count cost[17][4], k:6, cost[6][3]:132, level_node[6]:56 pow:4096, tempcost:229508, cutpoint:3
+now count cost[17][4], k:7, cost[7][3]:244, level_node[7]:112 pow:2048, tempcost:229620, cutpoint:3
+now count cost[17][4], k:8, cost[8][3]:468, level_node[8]:215 pow:1024, tempcost:220628, cutpoint:3
+now count cost[17][4], k:9, cost[9][3]:916, level_node[9]:422 pow:512, tempcost:216980, cutpoint:8
+now count cost[17][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:256, tempcost:212756, cutpoint:9
+now count cost[17][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:128, tempcost:205716, cutpoint:10
+now count cost[17][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:64, tempcost:198100, cutpoint:11
+now count cost[17][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:32, tempcost:193904, cutpoint:12
+now count cost[17][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:16, tempcost:194832, cutpoint:13
+now count cost[17][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:8, tempcost:206584, cutpoint:13
+now count cost[17][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:4, tempcost:213524, cutpoint:13
+//
+now count cost[18][4], k:3, cost[3][3]:28, level_node[3]:7 pow:65536, tempcost:458780, cutpoint:0
+now count cost[18][4], k:4, cost[4][3]:44, level_node[4]:14 pow:32768, tempcost:458796, cutpoint:3
+now count cost[18][4], k:5, cost[5][3]:76, level_node[5]:28 pow:16384, tempcost:458828, cutpoint:3
+now count cost[18][4], k:6, cost[6][3]:132, level_node[6]:56 pow:8192, tempcost:458884, cutpoint:3
+now count cost[18][4], k:7, cost[7][3]:244, level_node[7]:112 pow:4096, tempcost:458996, cutpoint:3
+now count cost[18][4], k:8, cost[8][3]:468, level_node[8]:215 pow:2048, tempcost:440788, cutpoint:3
+now count cost[18][4], k:9, cost[9][3]:916, level_node[9]:422 pow:1024, tempcost:433044, cutpoint:8
+now count cost[18][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:512, tempcost:423700, cutpoint:9
+now count cost[18][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:256, tempcost:407828, cutpoint:10
+now count cost[18][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:128, tempcost:389012, cutpoint:11
+now count cost[18][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:64, tempcost:373584, cutpoint:12
+now count cost[18][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:32, tempcost:361744, cutpoint:13
+now count cost[18][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:16, tempcost:359040, cutpoint:14
+now count cost[18][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:8, tempcost:324408, cutpoint:15
+now count cost[18][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:4, tempcost:376080, cutpoint:16
+//
+now count cost[19][4], k:3, cost[3][3]:28, level_node[3]:7 pow:131072, tempcost:917532, cutpoint:0
+now count cost[19][4], k:4, cost[4][3]:44, level_node[4]:14 pow:65536, tempcost:917548, cutpoint:3
+now count cost[19][4], k:5, cost[5][3]:76, level_node[5]:28 pow:32768, tempcost:917580, cutpoint:3
+now count cost[19][4], k:6, cost[6][3]:132, level_node[6]:56 pow:16384, tempcost:917636, cutpoint:3
+now count cost[19][4], k:7, cost[7][3]:244, level_node[7]:112 pow:8192, tempcost:917748, cutpoint:3
+now count cost[19][4], k:8, cost[8][3]:468, level_node[8]:215 pow:4096, tempcost:881108, cutpoint:3
+now count cost[19][4], k:9, cost[9][3]:916, level_node[9]:422 pow:2048, tempcost:865172, cutpoint:8
+now count cost[19][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:1024, tempcost:845588, cutpoint:9
+now count cost[19][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:512, tempcost:812052, cutpoint:10
+now count cost[19][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:256, tempcost:770836, cutpoint:11
+now count cost[19][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:128, tempcost:732944, cutpoint:12
+now count cost[19][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:64, tempcost:695568, cutpoint:13
+now count cost[19][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:32, tempcost:663952, cutpoint:14
+now count cost[19][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:16, tempcost:546176, cutpoint:15
+now count cost[19][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:8, tempcost:558208, cutpoint:16
+now count cost[19][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:4, tempcost:618776, cutpoint:16
+//
+now count cost[20][4], k:3, cost[3][3]:28, level_node[3]:7 pow:262144, tempcost:1835036, cutpoint:0
+now count cost[20][4], k:4, cost[4][3]:44, level_node[4]:14 pow:131072, tempcost:1835052, cutpoint:3
+now count cost[20][4], k:5, cost[5][3]:76, level_node[5]:28 pow:65536, tempcost:1835084, cutpoint:3
+now count cost[20][4], k:6, cost[6][3]:132, level_node[6]:56 pow:32768, tempcost:1835140, cutpoint:3
+now count cost[20][4], k:7, cost[7][3]:244, level_node[7]:112 pow:16384, tempcost:1835252, cutpoint:3
+now count cost[20][4], k:8, cost[8][3]:468, level_node[8]:215 pow:8192, tempcost:1761748, cutpoint:3
+now count cost[20][4], k:9, cost[9][3]:916, level_node[9]:422 pow:4096, tempcost:1729428, cutpoint:8
+now count cost[20][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:2048, tempcost:1689364, cutpoint:9
+now count cost[20][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:1024, tempcost:1620500, cutpoint:10
+now count cost[20][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:512, tempcost:1534484, cutpoint:11
+now count cost[20][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:256, tempcost:1451664, cutpoint:12
+now count cost[20][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:128, tempcost:1363216, cutpoint:13
+now count cost[20][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:64, tempcost:1273776, cutpoint:14
+now count cost[20][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:32, tempcost:989712, cutpoint:15
+now count cost[20][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:16, tempcost:922464, cutpoint:16
+now count cost[20][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:8, tempcost:912136, cutpoint:17
+now count cost[20][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:4, tempcost:998236, cutpoint:18
+//
+now count cost[21][4], k:3, cost[3][3]:28, level_node[3]:7 pow:524288, tempcost:3670044, cutpoint:0
+now count cost[21][4], k:4, cost[4][3]:44, level_node[4]:14 pow:262144, tempcost:3670060, cutpoint:3
+now count cost[21][4], k:5, cost[5][3]:76, level_node[5]:28 pow:131072, tempcost:3670092, cutpoint:3
+now count cost[21][4], k:6, cost[6][3]:132, level_node[6]:56 pow:65536, tempcost:3670148, cutpoint:3
+now count cost[21][4], k:7, cost[7][3]:244, level_node[7]:112 pow:32768, tempcost:3670260, cutpoint:3
+now count cost[21][4], k:8, cost[8][3]:468, level_node[8]:215 pow:16384, tempcost:3523028, cutpoint:3
+now count cost[21][4], k:9, cost[9][3]:916, level_node[9]:422 pow:8192, tempcost:3457940, cutpoint:8
+now count cost[21][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:4096, tempcost:3376916, cutpoint:9
+now count cost[21][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:2048, tempcost:3237396, cutpoint:10
+now count cost[21][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:1024, tempcost:3061780, cutpoint:11
+now count cost[21][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:512, tempcost:2889104, cutpoint:12
+now count cost[21][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:256, tempcost:2698512, cutpoint:13
+now count cost[21][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:128, tempcost:2493424, cutpoint:14
+now count cost[21][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:64, tempcost:1876784, cutpoint:15
+now count cost[21][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:32, tempcost:1650976, cutpoint:16
+now count cost[21][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:16, tempcost:1498856, cutpoint:17
+now count cost[21][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:8, tempcost:1449288, cutpoint:18
+now count cost[21][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:4, tempcost:1577384, cutpoint:19
+//
+now count cost[22][4], k:3, cost[3][3]:28, level_node[3]:7 pow:1048576, tempcost:7340060, cutpoint:0
+now count cost[22][4], k:4, cost[4][3]:44, level_node[4]:14 pow:524288, tempcost:7340076, cutpoint:3
+now count cost[22][4], k:5, cost[5][3]:76, level_node[5]:28 pow:262144, tempcost:7340108, cutpoint:3
+now count cost[22][4], k:6, cost[6][3]:132, level_node[6]:56 pow:131072, tempcost:7340164, cutpoint:3
+now count cost[22][4], k:7, cost[7][3]:244, level_node[7]:112 pow:65536, tempcost:7340276, cutpoint:3
+now count cost[22][4], k:8, cost[8][3]:468, level_node[8]:215 pow:32768, tempcost:7045588, cutpoint:3
+now count cost[22][4], k:9, cost[9][3]:916, level_node[9]:422 pow:16384, tempcost:6914964, cutpoint:8
+now count cost[22][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:8192, tempcost:6752020, cutpoint:9
+now count cost[22][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:4096, tempcost:6471188, cutpoint:10
+now count cost[22][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:2048, tempcost:6116372, cutpoint:11
+now count cost[22][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:1024, tempcost:5763984, cutpoint:12
+now count cost[22][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:512, tempcost:5369104, cutpoint:13
+now count cost[22][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:256, tempcost:4932720, cutpoint:14
+now count cost[22][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:128, tempcost:3650928, cutpoint:15
+now count cost[22][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:64, tempcost:3108000, cutpoint:16
+now count cost[22][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:32, tempcost:2672296, cutpoint:17
+now count cost[22][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:16, tempcost:2351392, cutpoint:18
+now count cost[22][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:8, tempcost:2230192, cutpoint:19
+now count cost[22][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:4, tempcost:2407868, cutpoint:20
+//
+now count cost[23][4], k:3, cost[3][3]:28, level_node[3]:7 pow:2097152, tempcost:14680092, cutpoint:0
+now count cost[23][4], k:4, cost[4][3]:44, level_node[4]:14 pow:1048576, tempcost:14680108, cutpoint:3
+now count cost[23][4], k:5, cost[5][3]:76, level_node[5]:28 pow:524288, tempcost:14680140, cutpoint:3
+now count cost[23][4], k:6, cost[6][3]:132, level_node[6]:56 pow:262144, tempcost:14680196, cutpoint:3
+now count cost[23][4], k:7, cost[7][3]:244, level_node[7]:112 pow:131072, tempcost:14680308, cutpoint:3
+now count cost[23][4], k:8, cost[8][3]:468, level_node[8]:215 pow:65536, tempcost:14090708, cutpoint:3
+now count cost[23][4], k:9, cost[9][3]:916, level_node[9]:422 pow:32768, tempcost:13829012, cutpoint:8
+now count cost[23][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:16384, tempcost:13502228, cutpoint:9
+now count cost[23][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:8192, tempcost:12938772, cutpoint:10
+now count cost[23][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:4096, tempcost:12225556, cutpoint:11
+now count cost[23][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:2048, tempcost:11513744, cutpoint:12
+now count cost[23][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:1024, tempcost:10710288, cutpoint:13
+now count cost[23][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:512, tempcost:9811312, cutpoint:14
+now count cost[23][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:256, tempcost:7199216, cutpoint:15
+now count cost[23][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:128, tempcost:6022048, cutpoint:16
+now count cost[23][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:64, tempcost:5019176, cutpoint:17
+now count cost[23][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:32, tempcost:4155600, cutpoint:18
+now count cost[23][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:16, tempcost:3535808, cutpoint:19
+now count cost[23][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:8, tempcost:3339024, cutpoint:20
+now count cost[23][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:4, tempcost:3467412, cutpoint:21
+//
+now count cost[24][4], k:3, cost[3][3]:28, level_node[3]:7 pow:4194304, tempcost:29360156, cutpoint:0
+now count cost[24][4], k:4, cost[4][3]:44, level_node[4]:14 pow:2097152, tempcost:29360172, cutpoint:3
+now count cost[24][4], k:5, cost[5][3]:76, level_node[5]:28 pow:1048576, tempcost:29360204, cutpoint:3
+now count cost[24][4], k:6, cost[6][3]:132, level_node[6]:56 pow:524288, tempcost:29360260, cutpoint:3
+now count cost[24][4], k:7, cost[7][3]:244, level_node[7]:112 pow:262144, tempcost:29360372, cutpoint:3
+now count cost[24][4], k:8, cost[8][3]:468, level_node[8]:215 pow:131072, tempcost:28180948, cutpoint:3
+now count cost[24][4], k:9, cost[9][3]:916, level_node[9]:422 pow:65536, tempcost:27657108, cutpoint:8
+now count cost[24][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:32768, tempcost:27002644, cutpoint:9
+now count cost[24][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:16384, tempcost:25873940, cutpoint:10
+now count cost[24][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:8192, tempcost:24443924, cutpoint:11
+now count cost[24][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:4096, tempcost:23013264, cutpoint:12
+now count cost[24][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:2048, tempcost:21392656, cutpoint:13
+now count cost[24][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:1024, tempcost:19568496, cutpoint:14
+now count cost[24][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:512, tempcost:14295792, cutpoint:15
+now count cost[24][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:256, tempcost:11850144, cutpoint:16
+now count cost[24][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:128, tempcost:9712936, cutpoint:17
+now count cost[24][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:64, tempcost:7764016, cutpoint:18
+now count cost[24][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:32, tempcost:6147040, cutpoint:19
+now count cost[24][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:16, tempcost:5201336, cutpoint:20
+now count cost[24][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:8, tempcost:4638552, cutpoint:21
+now count cost[24][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:4, tempcost:5126072, cutpoint:22
+//
+now count cost[25][4], k:3, cost[3][3]:28, level_node[3]:7 pow:8388608, tempcost:58720284, cutpoint:0
+now count cost[25][4], k:4, cost[4][3]:44, level_node[4]:14 pow:4194304, tempcost:58720300, cutpoint:3
+now count cost[25][4], k:5, cost[5][3]:76, level_node[5]:28 pow:2097152, tempcost:58720332, cutpoint:3
+now count cost[25][4], k:6, cost[6][3]:132, level_node[6]:56 pow:1048576, tempcost:58720388, cutpoint:3
+now count cost[25][4], k:7, cost[7][3]:244, level_node[7]:112 pow:524288, tempcost:58720500, cutpoint:3
+now count cost[25][4], k:8, cost[8][3]:468, level_node[8]:215 pow:262144, tempcost:56361428, cutpoint:3
+now count cost[25][4], k:9, cost[9][3]:916, level_node[9]:422 pow:131072, tempcost:55313300, cutpoint:8
+now count cost[25][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:65536, tempcost:54003476, cutpoint:9
+now count cost[25][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:32768, tempcost:51744276, cutpoint:10
+now count cost[25][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:16384, tempcost:48880660, cutpoint:11
+now count cost[25][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:8192, tempcost:46012304, cutpoint:12
+now count cost[25][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:4096, tempcost:42757392, cutpoint:13
+now count cost[25][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:2048, tempcost:39082864, cutpoint:14
+now count cost[25][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:1024, tempcost:28488944, cutpoint:15
+now count cost[25][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:512, tempcost:23506336, cutpoint:16
+now count cost[25][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:256, tempcost:19100456, cutpoint:17
+now count cost[25][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:128, tempcost:14980848, cutpoint:18
+now count cost[25][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:64, tempcost:11369504, cutpoint:19
+now count cost[25][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:32, tempcost:8925960, cutpoint:20
+now count cost[25][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:16, tempcost:6980832, cutpoint:21
+now count cost[25][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:8, tempcost:6692104, cutpoint:22
+now count cost[25][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:4, tempcost:5230772, cutpoint:23
+//
+now count cost[26][4], k:3, cost[3][3]:28, level_node[3]:7 pow:16777216, tempcost:117440540, cutpoint:0
+now count cost[26][4], k:4, cost[4][3]:44, level_node[4]:14 pow:8388608, tempcost:117440556, cutpoint:3
+now count cost[26][4], k:5, cost[5][3]:76, level_node[5]:28 pow:4194304, tempcost:117440588, cutpoint:3
+now count cost[26][4], k:6, cost[6][3]:132, level_node[6]:56 pow:2097152, tempcost:117440644, cutpoint:3
+now count cost[26][4], k:7, cost[7][3]:244, level_node[7]:112 pow:1048576, tempcost:117440756, cutpoint:3
+now count cost[26][4], k:8, cost[8][3]:468, level_node[8]:215 pow:524288, tempcost:112722388, cutpoint:3
+now count cost[26][4], k:9, cost[9][3]:916, level_node[9]:422 pow:262144, tempcost:110625684, cutpoint:8
+now count cost[26][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:131072, tempcost:108005140, cutpoint:9
+now count cost[26][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:65536, tempcost:103484948, cutpoint:10
+now count cost[26][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:32768, tempcost:97754132, cutpoint:11
+now count cost[26][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:16384, tempcost:92010384, cutpoint:12
+now count cost[26][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:8192, tempcost:85486864, cutpoint:13
+now count cost[26][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:4096, tempcost:78111600, cutpoint:14
+now count cost[26][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:2048, tempcost:56875248, cutpoint:15
+now count cost[26][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:1024, tempcost:46818720, cutpoint:16
+now count cost[26][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:512, tempcost:37875496, cutpoint:17
+now count cost[26][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:256, tempcost:29414512, cutpoint:18
+now count cost[26][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:128, tempcost:21814432, cutpoint:19
+now count cost[26][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:64, tempcost:16375208, cutpoint:20
+now count cost[26][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:32, tempcost:11665392, cutpoint:21
+now count cost[26][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:16, tempcost:9824168, cutpoint:22
+now count cost[26][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:8, tempcost:5266480, cutpoint:23
+now count cost[26][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:4, tempcost:7392220, cutpoint:24
+//
+now count cost[27][4], k:3, cost[3][3]:28, level_node[3]:7 pow:33554432, tempcost:234881052, cutpoint:0
+now count cost[27][4], k:4, cost[4][3]:44, level_node[4]:14 pow:16777216, tempcost:234881068, cutpoint:3
+now count cost[27][4], k:5, cost[5][3]:76, level_node[5]:28 pow:8388608, tempcost:234881100, cutpoint:3
+now count cost[27][4], k:6, cost[6][3]:132, level_node[6]:56 pow:4194304, tempcost:234881156, cutpoint:3
+now count cost[27][4], k:7, cost[7][3]:244, level_node[7]:112 pow:2097152, tempcost:234881268, cutpoint:3
+now count cost[27][4], k:8, cost[8][3]:468, level_node[8]:215 pow:1048576, tempcost:225444308, cutpoint:3
+now count cost[27][4], k:9, cost[9][3]:916, level_node[9]:422 pow:524288, tempcost:221250452, cutpoint:8
+now count cost[27][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:262144, tempcost:216008468, cutpoint:9
+now count cost[27][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:131072, tempcost:206966292, cutpoint:10
+now count cost[27][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:65536, tempcost:195501076, cutpoint:11
+now count cost[27][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:32768, tempcost:184006544, cutpoint:12
+now count cost[27][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:16384, tempcost:170945808, cutpoint:13
+now count cost[27][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:8192, tempcost:156169072, cutpoint:14
+now count cost[27][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:4096, tempcost:113647856, cutpoint:15
+now count cost[27][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:2048, tempcost:93443488, cutpoint:16
+now count cost[27][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:1024, tempcost:75425576, cutpoint:17
+now count cost[27][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:512, tempcost:58281840, cutpoint:18
+now count cost[27][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:256, tempcost:42704288, cutpoint:19
+now count cost[27][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:128, tempcost:31273704, cutpoint:20
+now count cost[27][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:64, tempcost:21034512, cutpoint:21
+now count cost[27][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:32, tempcost:16088296, cutpoint:22
+now count cost[27][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:16, tempcost:5337896, cutpoint:23
+now count cost[27][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:8, tempcost:7429116, cutpoint:24
+now count cost[27][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:4, tempcost:7428688, cutpoint:24
+//
+now count cost[28][4], k:3, cost[3][3]:28, level_node[3]:7 pow:67108864, tempcost:469762076, cutpoint:0
+now count cost[28][4], k:4, cost[4][3]:44, level_node[4]:14 pow:33554432, tempcost:469762092, cutpoint:3
+now count cost[28][4], k:5, cost[5][3]:76, level_node[5]:28 pow:16777216, tempcost:469762124, cutpoint:3
+now count cost[28][4], k:6, cost[6][3]:132, level_node[6]:56 pow:8388608, tempcost:469762180, cutpoint:3
+now count cost[28][4], k:7, cost[7][3]:244, level_node[7]:112 pow:4194304, tempcost:469762292, cutpoint:3
+now count cost[28][4], k:8, cost[8][3]:468, level_node[8]:215 pow:2097152, tempcost:450888148, cutpoint:3
+now count cost[28][4], k:9, cost[9][3]:916, level_node[9]:422 pow:1048576, tempcost:442499988, cutpoint:8
+now count cost[28][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:524288, tempcost:432015124, cutpoint:9
+now count cost[28][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:262144, tempcost:413928980, cutpoint:10
+now count cost[28][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:131072, tempcost:390994964, cutpoint:11
+now count cost[28][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:65536, tempcost:367998864, cutpoint:12
+now count cost[28][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:32768, tempcost:341863696, cutpoint:13
+now count cost[28][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:16384, tempcost:312284016, cutpoint:14
+now count cost[28][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:8192, tempcost:227193072, cutpoint:15
+now count cost[28][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:4096, tempcost:186693024, cutpoint:16
+now count cost[28][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:2048, tempcost:150525736, cutpoint:17
+now count cost[28][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:1024, tempcost:116016496, cutpoint:18
+now count cost[28][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:512, tempcost:84484000, cutpoint:19
+now count cost[28][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:256, tempcost:61070696, cutpoint:20
+now count cost[28][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:128, tempcost:39772752, cutpoint:21
+now count cost[28][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:64, tempcost:28616552, cutpoint:22
+now count cost[28][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:32, tempcost:5480728, cutpoint:23
+now count cost[28][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:16, tempcost:7502908, cutpoint:24
+now count cost[28][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:8, tempcost:7466344, cutpoint:24
+now count cost[28][4], k:27, cost[27][3]:7462448, level_node[27]:10053 pow:4, tempcost:7502660, cutpoint:24
+//
+now count cost[29][4], k:3, cost[3][3]:28, level_node[3]:7 pow:134217728, tempcost:939524124, cutpoint:0
+now count cost[29][4], k:4, cost[4][3]:44, level_node[4]:14 pow:67108864, tempcost:939524140, cutpoint:3
+now count cost[29][4], k:5, cost[5][3]:76, level_node[5]:28 pow:33554432, tempcost:939524172, cutpoint:3
+now count cost[29][4], k:6, cost[6][3]:132, level_node[6]:56 pow:16777216, tempcost:939524228, cutpoint:3
+now count cost[29][4], k:7, cost[7][3]:244, level_node[7]:112 pow:8388608, tempcost:939524340, cutpoint:3
+now count cost[29][4], k:8, cost[8][3]:468, level_node[8]:215 pow:4194304, tempcost:901775828, cutpoint:3
+now count cost[29][4], k:9, cost[9][3]:916, level_node[9]:422 pow:2097152, tempcost:884999060, cutpoint:8
+now count cost[29][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:1048576, tempcost:864028436, cutpoint:9
+now count cost[29][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:524288, tempcost:827854356, cutpoint:10
+now count cost[29][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:262144, tempcost:781982740, cutpoint:11
+now count cost[29][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:131072, tempcost:735983504, cutpoint:12
+now count cost[29][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:65536, tempcost:683699472, cutpoint:13
+now count cost[29][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:32768, tempcost:624513904, cutpoint:14
+now count cost[29][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:16384, tempcost:454283504, cutpoint:15
+now count cost[29][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:8192, tempcost:373192096, cutpoint:16
+now count cost[29][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:4096, tempcost:300726056, cutpoint:17
+now count cost[29][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:2048, tempcost:231485808, cutpoint:18
+now count cost[29][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:1024, tempcost:168043424, cutpoint:19
+now count cost[29][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:512, tempcost:120664680, cutpoint:20
+now count cost[29][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:256, tempcost:77249232, cutpoint:21
+now count cost[29][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:128, tempcost:53673064, cutpoint:22
+now count cost[29][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:64, tempcost:5766392, cutpoint:23
+now count cost[29][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:32, tempcost:7650492, cutpoint:24
+now count cost[29][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:16, tempcost:7541656, cutpoint:24
+now count cost[29][4], k:27, cost[27][3]:7462448, level_node[27]:10053 pow:8, tempcost:7542872, cutpoint:24
+now count cost[29][4], k:28, cost[28][3]:7605280, level_node[28]:10985 pow:4, tempcost:7649220, cutpoint:24
+//
+now count cost[30][4], k:3, cost[3][3]:28, level_node[3]:7 pow:268435456, tempcost:1879048220, cutpoint:0
+now count cost[30][4], k:4, cost[4][3]:44, level_node[4]:14 pow:134217728, tempcost:1879048236, cutpoint:3
+now count cost[30][4], k:5, cost[5][3]:76, level_node[5]:28 pow:67108864, tempcost:1879048268, cutpoint:3
+now count cost[30][4], k:6, cost[6][3]:132, level_node[6]:56 pow:33554432, tempcost:1879048324, cutpoint:3
+now count cost[30][4], k:7, cost[7][3]:244, level_node[7]:112 pow:16777216, tempcost:1879048436, cutpoint:3
+now count cost[30][4], k:8, cost[8][3]:468, level_node[8]:215 pow:8388608, tempcost:1803551188, cutpoint:3
+now count cost[30][4], k:9, cost[9][3]:916, level_node[9]:422 pow:4194304, tempcost:1769997204, cutpoint:8
+now count cost[30][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:2097152, tempcost:1728055060, cutpoint:9
+now count cost[30][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:1048576, tempcost:1655705108, cutpoint:10
+now count cost[30][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:524288, tempcost:1563958292, cutpoint:11
+now count cost[30][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:262144, tempcost:1471952784, cutpoint:12
+now count cost[30][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:131072, tempcost:1367371024, cutpoint:13
+now count cost[30][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:65536, tempcost:1248973680, cutpoint:14
+now count cost[30][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:32768, tempcost:908464368, cutpoint:15
+now count cost[30][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:16384, tempcost:746190240, cutpoint:16
+now count cost[30][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:8192, tempcost:601126696, cutpoint:17
+now count cost[30][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:4096, tempcost:462424432, cutpoint:18
+now count cost[30][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:2048, tempcost:335162272, cutpoint:19
+now count cost[30][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:1024, tempcost:239852648, cutpoint:20
+now count cost[30][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:512, tempcost:152202192, cutpoint:21
+now count cost[30][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:256, tempcost:103786088, cutpoint:22
+now count cost[30][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:128, tempcost:6337720, cutpoint:23
+now count cost[30][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:64, tempcost:7945660, cutpoint:24
+now count cost[30][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:32, tempcost:7692280, cutpoint:24
+now count cost[30][4], k:27, cost[27][3]:7462448, level_node[27]:10053 pow:16, tempcost:7623296, cutpoint:24
+now count cost[30][4], k:28, cost[28][3]:7605280, level_node[28]:10985 pow:8, tempcost:7693160, cutpoint:24
+now count cost[30][4], k:29, cost[29][3]:7890944, level_node[29]:10193 pow:4, tempcost:7931716, cutpoint:24
+//
+now count cost[31][4], k:3, cost[3][3]:28, level_node[3]:7 pow:536870912, tempcost:3758096412, cutpoint:0
+now count cost[31][4], k:4, cost[4][3]:44, level_node[4]:14 pow:268435456, tempcost:3758096428, cutpoint:3
+now count cost[31][4], k:5, cost[5][3]:76, level_node[5]:28 pow:134217728, tempcost:3758096460, cutpoint:3
+now count cost[31][4], k:6, cost[6][3]:132, level_node[6]:56 pow:67108864, tempcost:3758096516, cutpoint:3
+now count cost[31][4], k:7, cost[7][3]:244, level_node[7]:112 pow:33554432, tempcost:3758096628, cutpoint:3
+now count cost[31][4], k:8, cost[8][3]:468, level_node[8]:215 pow:16777216, tempcost:3607101908, cutpoint:3
+now count cost[31][4], k:9, cost[9][3]:916, level_node[9]:422 pow:8388608, tempcost:3539993492, cutpoint:8
+now count cost[31][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:4194304, tempcost:3456108308, cutpoint:9
+now count cost[31][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:2097152, tempcost:3311406612, cutpoint:10
+now count cost[31][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:1048576, tempcost:3127909396, cutpoint:11
+now count cost[31][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:524288, tempcost:2943891344, cutpoint:12
+now count cost[31][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:262144, tempcost:2734714128, cutpoint:13
+now count cost[31][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:131072, tempcost:2497893232, cutpoint:14
+now count cost[31][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:65536, tempcost:1816826096, cutpoint:15
+now count cost[31][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:32768, tempcost:1492186528, cutpoint:16
+now count cost[31][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:16384, tempcost:1201927976, cutpoint:17
+now count cost[31][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:8192, tempcost:924301680, cutpoint:18
+now count cost[31][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:4096, tempcost:669399968, cutpoint:19
+now count cost[31][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:2048, tempcost:478228584, cutpoint:20
+now count cost[31][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:1024, tempcost:302108112, cutpoint:21
+now count cost[31][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:512, tempcost:204012136, cutpoint:22
+now count cost[31][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:256, tempcost:7480376, cutpoint:23
+now count cost[31][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:128, tempcost:8535996, cutpoint:24
+now count cost[31][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:64, tempcost:7993528, cutpoint:24
+now count cost[31][4], k:27, cost[27][3]:7462448, level_node[27]:10053 pow:32, tempcost:7784144, cutpoint:24
+now count cost[31][4], k:28, cost[28][3]:7605280, level_node[28]:10985 pow:16, tempcost:7781040, cutpoint:24
+now count cost[31][4], k:29, cost[29][3]:7890944, level_node[29]:10193 pow:8, tempcost:7972488, cutpoint:24
+now count cost[31][4], k:30, cost[30][3]:8462272, level_node[30]:9854 pow:4, tempcost:8501688, cutpoint:24
+//
+now count cost[32][4], k:3, cost[3][3]:28, level_node[3]:7 pow:1073741824, tempcost:7516192796, cutpoint:0
+now count cost[32][4], k:4, cost[4][3]:44, level_node[4]:14 pow:536870912, tempcost:7516192812, cutpoint:3
+now count cost[32][4], k:5, cost[5][3]:76, level_node[5]:28 pow:268435456, tempcost:7516192844, cutpoint:3
+now count cost[32][4], k:6, cost[6][3]:132, level_node[6]:56 pow:134217728, tempcost:7516192900, cutpoint:3
+now count cost[32][4], k:7, cost[7][3]:244, level_node[7]:112 pow:67108864, tempcost:7516193012, cutpoint:3
+now count cost[32][4], k:8, cost[8][3]:468, level_node[8]:215 pow:33554432, tempcost:7214203348, cutpoint:3
+now count cost[32][4], k:9, cost[9][3]:916, level_node[9]:422 pow:16777216, tempcost:7079986068, cutpoint:8
+now count cost[32][4], k:10, cost[10][3]:1812, level_node[10]:824 pow:8388608, tempcost:6912214804, cutpoint:9
+now count cost[32][4], k:11, cost[11][3]:3604, level_node[11]:1579 pow:4194304, tempcost:6622809620, cutpoint:10
+now count cost[32][4], k:12, cost[12][3]:7188, level_node[12]:2983 pow:2097152, tempcost:6255811604, cutpoint:11
+now count cost[32][4], k:13, cost[13][3]:14224, level_node[13]:5615 pow:1048576, tempcost:5887768464, cutpoint:12
+now count cost[32][4], k:14, cost[14][3]:27920, level_node[14]:10432 pow:524288, tempcost:5469400336, cutpoint:13
+now count cost[32][4], k:15, cost[15][3]:54128, level_node[15]:19057 pow:262144, tempcost:4995732336, cutpoint:14
+now count cost[32][4], k:16, cost[16][3]:102640, level_node[16]:27721 pow:131072, tempcost:3633549552, cutpoint:15
+now count cost[32][4], k:17, cost[17][3]:193952, level_node[17]:45532 pow:65536, tempcost:2984179104, cutpoint:16
+now count cost[32][4], k:18, cost[18][3]:325416, level_node[18]:73340 pow:32768, tempcost:2403530536, cutpoint:17
+now count cost[32][4], k:19, cost[19][3]:547184, level_node[19]:112763 pow:16384, tempcost:1848056176, cutpoint:18
+now count cost[32][4], k:20, cost[20][3]:924576, level_node[20]:163202 pow:8192, tempcost:1337875360, cutpoint:19
+now count cost[32][4], k:21, cost[21][3]:1476712, level_node[21]:232789 pow:4096, tempcost:954980456, cutpoint:20
+now count cost[32][4], k:22, cost[22][3]:2296272, level_node[22]:292785 pow:2048, tempcost:601919952, cutpoint:21
+now count cost[32][4], k:23, cost[23][3]:3560040, level_node[23]:391508 pow:1024, tempcost:404464232, cutpoint:22
+now count cost[32][4], k:24, cost[24][3]:5195064, level_node[24]:8927 pow:512, tempcost:9765688, cutpoint:23
+now count cost[32][4], k:25, cost[25][3]:7355324, level_node[25]:9224 pow:256, tempcost:9716668, cutpoint:24
+now count cost[32][4], k:26, cost[26][3]:7391032, level_node[26]:9414 pow:128, tempcost:8596024, cutpoint:25
+now count cost[32][4], k:27, cost[27][3]:7462448, level_node[27]:10053 pow:64, tempcost:8105840, cutpoint:26
+now count cost[32][4], k:28, cost[28][3]:7605280, level_node[28]:10985 pow:32, tempcost:7956800, cutpoint:27
+now count cost[32][4], k:29, cost[29][3]:7890944, level_node[29]:10193 pow:16, tempcost:8054032, cutpoint:28
+now count cost[32][4], k:30, cost[30][3]:8462272, level_node[30]:9854 pow:8, tempcost:8541104, cutpoint:28
+now count cost[32][4], k:31, cost[31][3]:9604928, level_node[31]:13201 pow:4, tempcost:9657732, cutpoint:28
+//
+
+**********************Best Cost******************************
+
+cost[1][1] = 4, cutpoint = 1
+cost[2][1] = 8, cutpoint = 2
+cost[3][1] = 16, cutpoint = 3
+cost[4][1] = 32, cutpoint = 4
+cost[5][1] = 64, cutpoint = 5
+cost[6][1] = 128, cutpoint = 6
+cost[7][1] = 256, cutpoint = 7
+cost[8][1] = 512, cutpoint = 8
+cost[9][1] = 1024, cutpoint = 9
+cost[10][1] = 2048, cutpoint = 10
+cost[11][1] = 4096, cutpoint = 11
+cost[12][1] = 8192, cutpoint = 12
+cost[13][1] = 16384, cutpoint = 13
+cost[14][1] = 32768, cutpoint = 14
+cost[15][1] = 65536, cutpoint = 15
+cost[16][1] = 131072, cutpoint = 16
+cost[17][1] = 262144, cutpoint = 17
+cost[18][1] = 524288, cutpoint = 18
+cost[19][1] = 1048576, cutpoint = 19
+cost[20][1] = 2097152, cutpoint = 20
+cost[21][1] = 4194304, cutpoint = 21
+cost[22][1] = 8388608, cutpoint = 22
+cost[23][1] = 16777216, cutpoint = 23
+cost[24][1] = 33554432, cutpoint = 24
+cost[25][1] = 67108864, cutpoint = 25
+cost[26][1] = 134217728, cutpoint = 26
+cost[27][1] = 268435456, cutpoint = 27
+cost[28][1] = 536870912, cutpoint = 28
+cost[29][1] = 1073741824, cutpoint = 29
+cost[30][1] = 18446744071562067968, cutpoint = 30
+cost[31][1] = 0, cutpoint = 31
+cost[32][1] = 0, cutpoint = 32
+//
+cost[1][2] = 18446744073709551615, cutpoint = 0
+cost[2][2] = 12, cutpoint = 1
+cost[3][2] = 20, cutpoint = 1
+cost[4][2] = 36, cutpoint = 1
+cost[5][2] = 68, cutpoint = 1
+cost[6][2] = 128, cutpoint = 3
+cost[7][2] = 240, cutpoint = 3
+cost[8][2] = 464, cutpoint = 3
+cost[9][2] = 912, cutpoint = 3
+cost[10][2] = 1808, cutpoint = 3
+cost[11][2] = 3600, cutpoint = 3
+cost[12][2] = 7184, cutpoint = 3
+cost[13][2] = 14272, cutpoint = 8
+cost[14][2] = 28032, cutpoint = 8
+cost[15][2] = 54624, cutpoint = 11
+cost[16][2] = 103648, cutpoint = 12
+cost[17][2] = 196064, cutpoint = 13
+cost[18][2] = 352840, cutpoint = 16
+cost[19][2] = 574608, cutpoint = 16
+cost[20][2] = 990656, cutpoint = 17
+cost[21][2] = 1697728, cutpoint = 18
+cost[22][2] = 2852784, cutpoint = 19
+cost[23][2] = 4656992, cutpoint = 19
+cost[24][2] = 7319616, cutpoint = 20
+cost[25][2] = 11643552, cutpoint = 21
+cost[26][2] = 17757728, cutpoint = 22
+cost[27][2] = 27126848, cutpoint = 22
+cost[28][2] = 33840096, cutpoint = 24
+cost[29][2] = 34125760, cutpoint = 24
+cost[30][2] = 34697088, cutpoint = 24
+cost[31][2] = 35839744, cutpoint = 24
+cost[32][2] = 4, cutpoint = 1
+//
+cost[1][3] = 18446744073709551615, cutpoint = 0
+cost[2][3] = 18446744073709551615, cutpoint = 0
+cost[3][3] = 28, cutpoint = 2
+cost[4][3] = 44, cutpoint = 2
+cost[5][3] = 76, cutpoint = 2
+cost[6][3] = 132, cutpoint = 3
+cost[7][3] = 244, cutpoint = 3
+cost[8][3] = 468, cutpoint = 3
+cost[9][3] = 916, cutpoint = 3
+cost[10][3] = 1812, cutpoint = 3
+cost[11][3] = 3604, cutpoint = 3
+cost[12][3] = 7188, cutpoint = 3
+cost[13][3] = 14224, cutpoint = 8
+cost[14][3] = 27920, cutpoint = 9
+cost[15][3] = 54128, cutpoint = 11
+cost[16][3] = 102640, cutpoint = 12
+cost[17][3] = 193952, cutpoint = 13
+cost[18][3] = 325416, cutpoint = 16
+cost[19][3] = 547184, cutpoint = 16
+cost[20][3] = 924576, cutpoint = 17
+cost[21][3] = 1476712, cutpoint = 19
+cost[22][3] = 2296272, cutpoint = 20
+cost[23][3] = 3560040, cutpoint = 21
+cost[24][3] = 5195064, cutpoint = 22
+cost[25][3] = 7355324, cutpoint = 24
+cost[26][3] = 7391032, cutpoint = 24
+cost[27][3] = 7462448, cutpoint = 24
+cost[28][3] = 7605280, cutpoint = 24
+cost[29][3] = 7890944, cutpoint = 24
+cost[30][3] = 8462272, cutpoint = 24
+cost[31][3] = 9604928, cutpoint = 24
+cost[32][3] = 11890240, cutpoint = 24
+//
+cost[1][4] = 18446744073709551615, cutpoint = 0
+cost[2][4] = 18446744073709551615, cutpoint = 0
+cost[3][4] = 18446744073709551615, cutpoint = 0
+cost[4][4] = 56, cutpoint = 3
+cost[5][4] = 84, cutpoint = 3
+cost[6][4] = 140, cutpoint = 3
+cost[7][4] = 252, cutpoint = 3
+cost[8][4] = 476, cutpoint = 3
+cost[9][4] = 924, cutpoint = 3
+cost[10][4] = 1820, cutpoint = 3
+cost[11][4] = 3612, cutpoint = 3
+cost[12][4] = 7196, cutpoint = 3
+cost[13][4] = 14228, cutpoint = 8
+cost[14][4] = 27924, cutpoint = 9
+cost[15][4] = 54132, cutpoint = 11
+cost[16][4] = 102644, cutpoint = 12
+cost[17][4] = 193904, cutpoint = 13
+cost[18][4] = 324408, cutpoint = 16
+cost[19][4] = 546176, cutpoint = 16
+cost[20][4] = 912136, cutpoint = 18
+cost[21][4] = 1449288, cutpoint = 19
+cost[22][4] = 2230192, cutpoint = 20
+cost[23][4] = 3339024, cutpoint = 21
+cost[24][4] = 4638552, cutpoint = 22
+cost[25][4] = 5230772, cutpoint = 24
+cost[26][4] = 5266480, cutpoint = 24
+cost[27][4] = 5337896, cutpoint = 24
+cost[28][4] = 5480728, cutpoint = 24
+cost[29][4] = 5766392, cutpoint = 24
+cost[30][4] = 6337720, cutpoint = 24
+cost[31][4] = 7480376, cutpoint = 24
+cost[32][4] = 7956800, cutpoint = 28
+//
+first cut: 28, second cut: 24, third cut: 20

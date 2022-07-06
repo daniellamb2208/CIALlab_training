@@ -1,0 +1,59 @@
+Avg. Build Time(rdtsc): 444
+number of nodes created: 1440390
+Total memory requirement: 33759 KB
+Avg. Search: 1057
+Avg. insert Time:1715
+After insertion
+There are 1482030 nodes in binary trie after insert
+Total memory requirement: 34735 KB
+(MaxClock, MinClock) = ( 3366,   111)
+0
+199
+4066
+8243
+19806
+30088
+29285
+62007
+76892
+77595
+52373
+74650
+59680
+33740
+41030
+27375
+13115
+13996
+7878
+4724
+1900
+1673
+879
+339
+315
+156
+44
+43
+25
+10
+2
+5
+3
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0

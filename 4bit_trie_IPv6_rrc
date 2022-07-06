@@ -1,0 +1,92 @@
+Avg. Build Time: 688
+number of nodes created: 147659
+Total memory requirement: 19610 KB
+There are 35835 nodes in binary trie have port
+Avg. Search: 249
+(MaxClock, MinClock) = ( 2219,    37)
+7014
+31103
+23275
+9454
+6704
+2883
+914
+743
+319
+153
+61
+57
+28
+22
+22
+9
+9
+6
+4
+2
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+memory access time table:
+1 times = 0
+2 times = 0
+3 times = 0
+4 times = 0
+5 times = 0
+6 times = 0
+7 times = 1
+8 times = 6
+9 times = 35
+10 times = 108
+11 times = 14503
+12 times = 7987
+13 times = 6082
+14 times = 7338
+15 times = 44031
+16 times = 386
+17 times = 498
+18 times = 1031
+19 times = 5
+20 times = 3
+21 times = 1
+22 times = 0
+23 times = 3
+24 times = 0
+25 times = 0
+26 times = 0
+27 times = 0
+28 times = 0
+29 times = 0
+30 times = 4
+31 times = 2
+32 times = 761
+avg. memory access time:13.976795
+Avg. insert Time:805
+number of nodes after inserted: 160537
